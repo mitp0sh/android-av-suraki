@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="IkarusRootLayoutMobile">
+        <item name="android:background">@drawable/background_opaque</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="IkarusRootLayout">
+        <item name="android:background">@drawable/background_opaque</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingTop">20.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:paddingBottom">20.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="IkarusRootLayoutInstall">
+        <item name="android:background">@drawable/background_opaque</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingTop">20.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:paddingBottom">20.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:weightSum">5.0</item>
+    </style>
+    <style name="IkarusAutoCompleteTextView" parent="@android:style/Widget.AutoCompleteTextView">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:background">@drawable/ikarus_edittext</item>
+    </style>
+    <style name="IkarusEdittext" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/ikarus_edittext</item>
+    </style>
+    <style name="IkarusButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/ikarus_button</item>
+        <item name="android:height">45.0dip</item>
+    </style>
+    <style name="IkarusTitleText" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/LITE_red</item>
+    </style>
+    <style name="IkarusText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="IkarusSmallText" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="IkarusProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/scan_progress_bar_no_infections</item>
+    </style>
+    <style name="IkarusWindowTitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/LITE_red</item>
+        <item name="android:paddingLeft">3.0dip</item>
+    </style>
+    <style name="AlertDialog" />
+    <style name="MainMenuItemMiddleContainerNormal">
+        <item name="android:paddingBottom">@dimen/separator_thickness</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MainMenuItemIconContainerNormal">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="MainMenuItemIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:contentDescription"></item>
+    </style>
+    <style name="MainMenuItemInnerContainer">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MainMenuItemLabel">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/LITE_red</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+    </style>
+    <style name="MainMenuItemLabelSmaller">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/LITE_red</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+    </style>
+    <style name="MainMenuItemInfoLine">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+        <item name="android:minLines">1</item>
+    </style>
+    <style name="Ikarus.Theme" parent="@android:style/Theme.Light">
+        <item name="android:textAppearanceLarge">@style/IkarusTitleText</item>
+        <item name="android:textAppearanceMedium">@style/IkarusText</item>
+        <item name="android:textAppearanceSmall">@style/IkarusSmallText</item>
+        <item name="android:buttonStyle">@style/IkarusButton</item>
+        <item name="android:windowTitleStyle">@style/IkarusWindowTitle</item>
+        <item name="android:windowTitleBackgroundStyle">@style/IkarusWindowTitle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/IkarusAutoCompleteTextView</item>
+        <item name="android:editTextStyle">@style/IkarusEdittext</item>
+        <item name="android:progressBarStyleHorizontal">@style/IkarusProgressBar</item>
+    </style>
+</resources>

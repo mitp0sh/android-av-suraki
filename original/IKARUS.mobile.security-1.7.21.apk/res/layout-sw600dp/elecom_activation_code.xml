@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:baselineAligned="false" style="@style/IkarusRootLayoutInstall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="5.0">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/navigationLayout">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center|left" android:id="@id/activation_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_marginTop="10.0dip" android:text="@string/elecom_activation_title" android:layout_alignParentTop="true" style="@style/MainMenuItemLabel" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/activation_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/elecom_activation_description" android:layout_below="@id/activation_title" />
+                <EditText android:id="@id/editTextActivationCode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/ikarus_activation_code_hint" android:ems="10" android:layout_below="@id/activation_description" android:inputType="textCapCharacters">
+                    <requestFocus />
+                </EditText>
+                <Button android:id="@id/scan_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/activation_qr_code_scan_button_text" android:drawableLeft="@android:drawable/ic_menu_camera" android:layout_below="@id/editTextActivationCode" android:onClick="onScanQrClicked" />
+                <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/scan_button">
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/demo_license_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_marginTop="10.0dip" android:text="@string/information_demoversion_body" />
+                    <Button android:id="@id/inAppButtonDemo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/demoversion_button" android:onClick="onTrialClicked" />
+                    <Button android:id="@id/skip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/elecom_wizard_navigation_skip" android:onClick="onSkipClicked" />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+        <LinearLayout android:id="@id/navigationLayout" android:paddingBottom="60.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <Button android:layout_gravity="center_horizontal" android:id="@id/buttonGetActivationCode" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/elecom_get_serial" android:layout_weight="5.0" android:onClick="onGetActivationCodeClicked" />
+            <GridView android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <Button android:id="@id/buttonActivationOk" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ikarus_activation_code_send" android:layout_weight="5.0" android:onClick="onOkClicked" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

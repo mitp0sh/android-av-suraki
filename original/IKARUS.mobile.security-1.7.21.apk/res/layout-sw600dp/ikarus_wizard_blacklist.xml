@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:baselineAligned="false" style="@style/IkarusRootLayoutInstall"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security">
+    <RelativeLayout android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="5.0">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_blacklist_header" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_blacklist_content" android:layout_above="@id/radioGroup" android:layout_below="@id/header" />
+        <LinearLayout android:orientation="horizontal" android:paddingBottom="60.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.ikarus.mobile.security.preference.frontend.IkarusBooleanRadioGroupPreferenceWithNextPrevious android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" ikarus:preference_key="blacklistActive" ikarus:preference_text="@string/ikarus_wizard_sms_filter_question" ikarus:preference_label_enable="@string/boolean_preference_enable" ikarus:preference_label_disable="@string/boolean_preference_disable" ikarus:preference_label_next="@string/ikarus_wizard_navigation_next" ikarus:preference_label_previous="@string/ikarus_wizard_navigation_back" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

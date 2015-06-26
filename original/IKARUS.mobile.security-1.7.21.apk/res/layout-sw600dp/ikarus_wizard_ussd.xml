@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security">
+    <LinearLayout android:orientation="horizontal" android:baselineAligned="false" style="@style/IkarusRootLayoutInstall">
+        <RelativeLayout android:orientation="vertical" android:paddingBottom="60.0dip" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="5.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_ussd_header" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/ikarus_wizard_ussd_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_ussd_content" />
+            </LinearLayout>
+            <com.ikarus.mobile.security.preference.frontend.IkarusBooleanRadioGroupPreferenceWithNextPrevious android:gravity="bottom" android:id="@id/radioGroup" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/text" android:layout_alignParentBottom="true" ikarus:preference_key="ussdProtectionSwitch" ikarus:preference_text="@string/ikarus_wizard_ussd_question" ikarus:preference_initialization="UssdPreferenceInitialization" ikarus:preference_change_handling="UssdPreferenceChangeHandling" ikarus:preference_label_enable="@string/boolean_preference_enable" ikarus:preference_label_disable="@string/boolean_preference_disable" ikarus:preference_label_next="@string/ikarus_wizard_navigation_next" ikarus:preference_label_previous="@string/ikarus_wizard_navigation_back" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

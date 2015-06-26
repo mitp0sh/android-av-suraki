@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:fillViewport="true" style="@style/IkarusRootLayoutMobile"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/activation_title" android:paddingTop="@dimen/default_seperation" android:paddingBottom="@dimen/default_seperation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/smsblacklist_title" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/activation_description" android:paddingBottom="@dimen/default_seperation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/elecom_wizard_blacklist_description" />
+        <com.ikarus.mobile.security.view.blacklisteditor.BlacklistEditor android:id="@id/blacklistEditor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="bottom|center" android:id="@id/navigationLayout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/backButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_navigation_back" android:layout_weight="1.0" android:onClick="onBackClicked" />
+            <Button android:id="@id/nextButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_navigation_next" android:layout_weight="1.0" android:onClick="onNextClicked" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layoutMain" style="@style/IkarusRootLayoutMobile"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security">
+    <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_urlfilter_body" ikarus:help_title="@string/information_urlfilter_header" ikarus:title_text="@string/urlfilter_title" />
+    <com.ikarus.mobile.security.preference.frontend.IkarusCheckBoxPreference android:layout_width="fill_parent" android:layout_height="wrap_content" ikarus:preference_key="webFilteringEnabled" ikarus:preference_text="@string/urlfilter_preference" ikarus:preference_small="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/urlfilter_preference_hint" />
+</LinearLayout>

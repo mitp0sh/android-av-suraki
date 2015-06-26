@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout style="@style/IkarusRootLayoutMobile">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_instruction_without_dialer_header" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_instruction_without_dialer_content" android:layout_above="@id/navigationLayout" android:layout_below="@id/header" />
+        <LinearLayout android:id="@id/navigationLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <Button android:id="@id/nextButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_navigation_skip" android:layout_weight="1.0" android:onClick="onSkipClicked" />
+            <Button android:id="@id/skipButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_navigation_next" android:layout_weight="1.0" android:onClick="onNextClicked" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

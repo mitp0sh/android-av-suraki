@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" style="@style/IkarusRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:id="@id/scanHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_scan_body" ikarus:help_title="@string/information_scan_header" ikarus:title_text="@string/heading_scan" />
+        <com.ikarus.mobile.security.view.ScanProgressBar android:id="@id/scanProgressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/scanLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="5.0">
+                <Button android:id="@id/buttonAppScan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_app_only_scan" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewAppScan" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/scanPlaceholder" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="5.0">
+                <Button android:id="@id/buttonFullScan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_full_scan" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewFullScan" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:background="@drawable/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_automatic_scans" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.ikarus.mobile.security.preference.frontend.IkarusCheckBoxPreference android:layout_gravity="center_vertical" android:id="@id/checkBoxAutomaticScans" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" ikarus:preference_key="automaticScansEnabled" ikarus:preference_text="@string/automatic_scans_enabled" ikarus:preference_small="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewNextAutomaticScan" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/automaticScansWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scan_mode" />
+            <com.ikarus.mobile.security.preference.frontend.IkarusBooleanRadioGroupPreference android:layout_width="fill_parent" android:layout_height="wrap_content" ikarus:preference_key="automaticScansMethodFull" ikarus:preference_label_enable="@string/radio_button_autoscan_full" ikarus:preference_label_disable="@string/radio_button_autoscan_quick" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scan_frequency" />
+            <com.ikarus.mobile.security.preference.frontend.IkarusIntervalRadioGroupPreference android:layout_width="fill_parent" android:layout_height="wrap_content" ikarus:preference_key="automaticScansInterval" />
+        </LinearLayout>
+        <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:id="@id/infectionHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_infection_body" ikarus:help_title="@string/information_infection_header" ikarus:title_text="@string/heading_infections" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="11.0">
+            <Button android:id="@id/buttonInfections" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/button_infections" android:layout_weight="5.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/infectionListContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ikarus.mobile.security.view.InfectionList android:id="@id/infectionList" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:id="@id/removeAllInfections" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="11.0">
+            <Button android:layout_gravity="right" android:id="@id/buttonRemoveAllInfections" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/menu_delete" android:layout_weight="5.0" />
+        </LinearLayout>
+        <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:id="@id/updateHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_update_body" ikarus:help_title="@string/information_update_header" ikarus:title_text="@string/heading_update" />
+        <com.ikarus.mobile.security.view.UpdateProgressBar android:id="@id/updateProgressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="center_vertical" android:id="@id/buttonUpdate" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/button_update_now" android:layout_weight="5.0" />
+            <FrameLayout android:layout_width="0.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+            <com.ikarus.mobile.security.preference.frontend.IkarusCheckBoxPreference android:layout_gravity="center_vertical" android:id="@id/wifiOnlyPreference" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="5.0" ikarus:preference_key="updateOnlyWifi" ikarus:preference_text="@string/prefs_update_only_wifi" ikarus:preference_small="true" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewLastUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RelativeLayout android:background="@drawable/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:background="@drawable/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_automatic_updates" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.ikarus.mobile.security.preference.frontend.IkarusCheckBoxPreference android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" ikarus:preference_key="automaticUpdatesEnabled" ikarus:preference_text="@string/automatic_updates_enabled" ikarus:preference_small="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="@color/status_partly" android:id="@id/warningAutomaticUpdatesDisabled" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/observation_screen_warning" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewNextAutomaticUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/automaticUpdatesWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update_frequency" />
+            <com.ikarus.mobile.security.preference.frontend.IkarusIntervalRadioGroupPreference android:layout_width="fill_parent" android:layout_height="wrap_content" ikarus:preference_key="automaticUpdatesInterval" />
+        </LinearLayout>
+        <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:id="@id/sigqaHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_sigqa_body" ikarus:help_title="@string/information_sigqa_header" ikarus:title_text="@string/sigqa_title" />
+        <com.ikarus.mobile.security.preference.frontend.IkarusCheckBoxPreference android:layout_gravity="center_vertical" android:id="@id/siqqaPreference" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" ikarus:preference_key="sigqaActive" ikarus:preference_text="@string/sigqa_preference_text" />
+    </LinearLayout>
+</ScrollView>

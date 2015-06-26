@@ -1,0 +1,15 @@
+version: 2.0.0-RC4
+apkFileName: IKARUS.mobile.security.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '8'
+  targetSdkVersion: '16'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '1007021'
+  versionName: 1.7.21
+compressionType: false

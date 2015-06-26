@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:baselineAligned="false" style="@style/IkarusRootLayoutInstall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="5.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/ussd_info_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ussd_information_text" />
+                        <EditText android:enabled="false" android:id="@id/ussd_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="none" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+        <CheckBox android:textSize="8.0pt" android:id="@id/ussd_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/ussd_confirmation_checkbox" android:layout_above="@id/linearLayout1" android:layout_alignParentLeft="true" />
+        <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="80.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <Button android:enabled="false" android:id="@id/ussd_callbutton" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/ussd_clipboard" android:drawableLeft="@android:drawable/ic_menu_save" android:layout_weight="5.0" />
+            <FrameLayout android:layout_width="0.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+            <Button android:id="@id/ussd_cancelbutton" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/ussd_cancel" android:drawableLeft="@android:drawable/sym_call_missed" android:layout_weight="5.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/IkarusRootLayoutMobile"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_remote_control_summary_header" android:layout_alignParentTop="true" />
+    <com.ikarus.mobile.security.view.LocalHtmlWebView android:textAppearance="?android:textAppearanceSmall" android:id="@id/wizard_remote_control_summary_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/navigationLayout" android:layout_below="@id/header" ikarus:html="@string/ikarus_wizard_remote_control_summary_content" />
+    <LinearLayout android:id="@id/navigationLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <Button android:id="@id/backButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_navigation_back" android:layout_weight="1.0" android:onClick="onBackClicked" />
+        <Button android:id="@id/nextButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_navigation_next" android:layout_weight="1.0" android:onClick="onNextClicked" />
+    </LinearLayout>
+</RelativeLayout>

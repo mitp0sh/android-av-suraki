@@ -1,0 +1,806 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: 6x4tCluna+HmVJo6euGU/fK86X4=
+
+Name: res/layout-sw600dp/elecom_wizard_initial_update.xml
+SHA1-Digest: XanFrzYHmeIgtRtnLlqvOMi/rr4=
+
+Name: res/layout-sw600dp/thanks_for_1st_upgrading_screen_install.xml
+SHA1-Digest: 5/zOi1QgZypDYMSQnKvS1vUG+04=
+
+Name: res/drawable-hdpi/list_upgrade.png
+SHA1-Digest: 5NG3hcX33T7xsZ/N6QtX3+ymv3s=
+
+Name: res/drawable-mdpi/notify_scan.png
+SHA1-Digest: TIUsvk+IO0K87tPu/nbgQrCLYLw=
+
+Name: assets/wizard/images/ussd.png
+SHA1-Digest: lDYmyA/un8K/u8eviG+1ucAGVpw=
+
+Name: res/layout/ikarus_upgrade_screen_with_trial.xml
+SHA1-Digest: KjWPrPYzEpGkuwqcgqjKgAL9ymE=
+
+Name: res/layout/ikarus_interval_spinner_preference.xml
+SHA1-Digest: E33iiunWzCDrtE+B63dhNmW4Oks=
+
+Name: res/drawable-ldpi/list_scan.png
+SHA1-Digest: VRLYWSWXwCkGtgxEamBqC4EjRjc=
+
+Name: res/layout-sw600dp/thanks_for_1st_upgrading_screen.xml
+SHA1-Digest: G8hGUt8kbKewKVAcl8IcpQIFsaM=
+
+Name: res/layout/elecom_wizard_remote_control.xml
+SHA1-Digest: uuqRt1hSNLFIbdNRv2Z3OCu0F2M=
+
+Name: res/drawable/bg_tab.xml
+SHA1-Digest: 9u+fpwPjOKf+bdGQ/23FCUUdtoE=
+
+Name: res/layout/elecom_info_screen.xml
+SHA1-Digest: v8n2z/B3mzlebTH2Ysmrn6KdjjM=
+
+Name: res/drawable-mdpi/status_infected.png
+SHA1-Digest: G3C0vBB+9GL6OEXH8bMmv7V3VOk=
+
+Name: res/layout/ikarus_trial_setup_screen.xml
+SHA1-Digest: 5BTdwD5ibP3NRHK1+r4cw5qfoF0=
+
+Name: res/drawable/scan_progress_bar_infections.xml
+SHA1-Digest: pz6RCFM8FCNF3R7kvdkTbFjiZEo=
+
+Name: res/layout/scan_progress_notification.xml
+SHA1-Digest: ZIqfexXgh2DuNxLkFmMx/NfoFPQ=
+
+Name: res/layout/ikarus_interval_radio_group_preference.xml
+SHA1-Digest: DuY7yYx6PodvEL5WsLJk44xGYsU=
+
+Name: res/layout/thanks_for_1st_upgrading_screen.xml
+SHA1-Digest: 0UHUjsI+mwnD030MHEm26wGjIc0=
+
+Name: res/layout/blacklist_editor.xml
+SHA1-Digest: 5rgKjAF74dfq4RVgeyNKIfjXNOE=
+
+Name: res/layout/main_screen_no_features.xml
+SHA1-Digest: BkaPQ8LYJ+vf0FNdfeCJricX4cg=
+
+Name: res/layout/anti_virus_screen_mdm.xml
+SHA1-Digest: rlCugyGMeuVNir0e9HckwqkupEU=
+
+Name: res/drawable-mdpi/list_info.png
+SHA1-Digest: tKJeOk4N0iziae0Hy4ONKQ8ScKg=
+
+Name: res/drawable-ldpi/list_wizard.png
+SHA1-Digest: QM0C6t5QgKNl8TS6LMCHoOaWIGM=
+
+Name: res/drawable/bg_tab_inactive.xml
+SHA1-Digest: G5iwlWzhO4iYp/x39r/EUQiVwUc=
+
+Name: res/layout/blacklist_screen.xml
+SHA1-Digest: FuITQmB/MYkLYngF9vaH6ewccbY=
+
+Name: res/layout/elecom_wizard_instruction.xml
+SHA1-Digest: FcMDbwXQw7+tc5T6wEvNkdgZ4MY=
+
+Name: res/drawable-ldpi/list_webfilter.png
+SHA1-Digest: Ls+ol2zF24arCl/4sqSsYi98IDw=
+
+Name: res/layout/infection.xml
+SHA1-Digest: Bp7X4CcUGFzs4tecQlQ+D3GR39c=
+
+Name: res/layout/ikarus_eula_screen.xml
+SHA1-Digest: WmvVTudpW4ib9VrHNn+qLguTHwg=
+
+Name: res/raw/alarm.mp3
+SHA1-Digest: +o0MstHUp2W1UX44eL1KrjEKrRY=
+
+Name: res/drawable-hdpi/status_infected.png
+SHA1-Digest: T3o806f23oAegMmgoT5lx4MNSww=
+
+Name: res/layout/lock_screen.xml
+SHA1-Digest: tGah9XUFiUU7Dstg8rviPQrMaEY=
+
+Name: res/drawable-hdpi/list_scan.png
+SHA1-Digest: EsY1FDfHQozisHqNjKSnMaVtWc8=
+
+Name: res/layout/ikarus_wizard_blacklist_add_entries.xml
+SHA1-Digest: l9gkkXEbr4UdFVsVEhEKvGAuAjI=
+
+Name: res/layout-sw600dp/ikarus_interval_radio_group_preference.xml
+SHA1-Digest: U9tvOfNc5ml9NCdihNJqnrca5Yc=
+
+Name: res/drawable-ldpi-v9/notify_scan.png
+SHA1-Digest: nNdfvaCH8Zz32JHoo6i/hJY4Xws=
+
+Name: res/layout-sw600dp/anti_virus_screen.xml
+SHA1-Digest: we4TmukOi0Lk2U8X1R5N1kdDdoo=
+
+Name: res/layout/thanks_for_nth_upgrading_screen.xml
+SHA1-Digest: 1lkHGJDS/MOF/p2HoNrwN0DD4zI=
+
+Name: res/layout-sw600dp/elecom_wizard_complete.xml
+SHA1-Digest: QjjgS3VjwoXvIKF0K+jtqeD/rH4=
+
+Name: res/layout/anti_virus_screen.xml
+SHA1-Digest: 3eB3XLZtmHMNio2cTU7qIQ6qtZ0=
+
+Name: res/drawable/ikarus_icon_48.png
+SHA1-Digest: hOMtAjP9oP5e+fa1kFRaf5dIIKU=
+
+Name: res/drawable-ldpi/status_infected.png
+SHA1-Digest: 0JDNZ9dPLDJTvUSr6cs7uJUgZaY=
+
+Name: res/layout/infection_list_non_xlarge.xml
+SHA1-Digest: y4Fqzf5xMQ92TPrtzuOwKJ6MJQE=
+
+Name: res/layout-sw600dp/elecom_google_upgrade_screen.xml
+SHA1-Digest: /nI4r9zc5aMLF/z1TOLEiNWIDqE=
+
+Name: res/layout/elecom_wizard_ussd.xml
+SHA1-Digest: WDXpb0Y4/QdCDv7b1RKkgq46ET8=
+
+Name: res/drawable/headingb.9.png
+SHA1-Digest: oWywbP5C0vkF7ptsuw+Tq51V4dk=
+
+Name: res/layout/menu.xml
+SHA1-Digest: jkYa1p9ZhmG1lJaS0qNcu+b7yc4=
+
+Name: res/layout/main_screen_fragment.xml
+SHA1-Digest: T3lSIXMszriBdGic1K1QY3yhli4=
+
+Name: res/layout-sw600dp/elecom_in_app_purchase_screen.xml
+SHA1-Digest: 6aZfCxrXz5hWDsXfyv1rMsn5Zbw=
+
+Name: res/layout/ikarus_activation_code_later_screen.xml
+SHA1-Digest: KuN4yffrUeox5HlMjNHXMAfrvF8=
+
+Name: assets/wizard/images/smsfiltering.png
+SHA1-Digest: bUr2uGNd57Uy6VZ/23NLaL1XlHo=
+
+Name: res/layout-sw600dp/mdm_initial_update.xml
+SHA1-Digest: UtjB1YvcOxGx7lfj5mI9sVAWy+8=
+
+Name: res/layout-sw600dp/elecom_wizard_password.xml
+SHA1-Digest: vPPZ/VoLros6H0mtwYVF/2MoNSo=
+
+Name: res/drawable-hdpi/status_partly.png
+SHA1-Digest: 9P316ldxf/ptUbPGMuwB9O+syu8=
+
+Name: res/layout-sw600dp/web_filter_screen.xml
+SHA1-Digest: bFxeG1QyMCFZ2BpUqb+HIICICZQ=
+
+Name: res/layout-sw600dp/url_warning_screen.xml
+SHA1-Digest: MSObM9g3j3WWEqeFXFMSJWuxQds=
+
+Name: res/drawable-hdpi/list_webfilter.png
+SHA1-Digest: 3PfIsUY78ANPJN9KdfsmBX57W0Q=
+
+Name: res/drawable-ldpi/status_safe.png
+SHA1-Digest: lSX/SusR2dO08A7saJoDXBfdNqY=
+
+Name: res/layout-sw600dp/ikarus_license_screen.xml
+SHA1-Digest: y5PjjI001KGQhA9yabWXxAH6p8U=
+
+Name: res/drawable-mdpi/list_diebstahlschutz.png
+SHA1-Digest: e+8r35xaabJD9Z6myX1UKxOI7Xc=
+
+Name: res/drawable-ldpi/notify_scan.png
+SHA1-Digest: yjsKbP1vy6kyPVT4tYczeOpMdrw=
+
+Name: res/layout/observation_screen.xml
+SHA1-Digest: UZKB8ufUJGwfOY0EN2sEdMUThuQ=
+
+Name: res/layout/mdm_initial_update.xml
+SHA1-Digest: XNSvlwQBnHvCzddmz0RTYdGLplc=
+
+Name: res/layout/ikarus_wizard_instruction_without_dialer.xml
+SHA1-Digest: sjbEPypkHRT2vIu+JPiKOrZ9z3k=
+
+Name: res/drawable-hdpi/list_diebstahlschutz.png
+SHA1-Digest: V7mgKhGpEViM/ajxVzOwvbzGIDI=
+
+Name: res/layout/ikarus_activation_code_setup_screen.xml
+SHA1-Digest: P04qEvA9Iov4qMxs7lCKVy+fktY=
+
+Name: res/drawable-mdpi/list_update.png
+SHA1-Digest: 5eTQFVa/1DdmAdX8DGYU33CUEto=
+
+Name: res/layout/elecom_wizard_web_filter.xml
+SHA1-Digest: 0buwVaPHZvqJ/Z5Xx94UNtx3uxI=
+
+Name: res/layout-sw600dp/ikarus_activation_code_later_screen.xml
+SHA1-Digest: M2NkHVGuAoTsY89578V2sUJEEVA=
+
+Name: res/layout/blacklist_contact_picker_item.xml
+SHA1-Digest: AaPNrEYr/ple+SXjrEIYpX65uo8=
+
+Name: res/drawable/scan_progress_bar_no_infections.xml
+SHA1-Digest: VMJR682LVptLWT5DpLi0lnPZLR8=
+
+Name: res/layout/ussd_block.xml
+SHA1-Digest: ojgycwmsTpgg6ASJ7cZh5EhUuXk=
+
+Name: lib/armeabi/libikarusandroid.so
+SHA1-Digest: APcShjIafZUHQTk0rjtQx1ZMSKY=
+
+Name: res/drawable/logo.png
+SHA1-Digest: sl/Ab7ctkOCCSlrPKc5i+uWoJh8=
+
+Name: res/layout/elecom_wizard_complete.xml
+SHA1-Digest: Wl6Wk1VinAgb81cg5Nfr+OMyb6s=
+
+Name: res/drawable-hdpi/menu_delete.png
+SHA1-Digest: pcDtMjnYUYzRMINBUTXvpImFPpY=
+
+Name: res/layout-sw600dp/create_password_later_screen.xml
+SHA1-Digest: vyDP3+CToo/SvpPGOmWpbcwlPqk=
+
+Name: res/layout/main_screen_all_features_without_telephony.xml
+SHA1-Digest: spAKAuxS0SXeIWRw63oJTUD8QHE=
+
+Name: res/layout/ikarus_boolean_radio_group_preference.xml
+SHA1-Digest: iQ2iEU12wvC+uqEO138Ths6Ok9E=
+
+Name: res/layout/contact.xml
+SHA1-Digest: vKWlrnU2/K0FFgjuBAl/edBt3Lo=
+
+Name: res/layout/info_screen.xml
+SHA1-Digest: uVpsVgllgsa+9nxSCM2eM8hu1uQ=
+
+Name: res/layout-sw600dp/ikarus_wizard_web_filter.xml
+SHA1-Digest: I7/gZuzHcV5G05ANJyk7tTAWyl8=
+
+Name: res/layout-sw600dp/ikarus_wizard_ussd.xml
+SHA1-Digest: nm68Q6tvZyRKdeSJmAzCw/RKMRo=
+
+Name: res/anim/shake.xml
+SHA1-Digest: pJIpQk4wDtnhP5TQjX1VEIc09o4=
+
+Name: res/drawable/background_opaque.xml
+SHA1-Digest: Cfuf+DH9WXqt3MVHiU96tqaC4Us=
+
+Name: res/drawable/heading.png
+SHA1-Digest: 6M9zYldIt1HxAuoUnx4AkZnh2bE=
+
+Name: res/layout-sw600dp/elecom_wizard_blacklist.xml
+SHA1-Digest: 5eLWUmutr9MJA+Eqk98VL91+cxM=
+
+Name: res/drawable-ldpi-v9/notify_error.png
+SHA1-Digest: 0TxgVX9HLAvaa352ckeusBahSFo=
+
+Name: res/layout/ikarus_boolean_radio_group_preference_with_next_previ
+ ous.xml
+SHA1-Digest: rqmgu2pz8ZffMIIXnqQiL+kt590=
+
+Name: res/layout/contact_list.xml
+SHA1-Digest: WsBULIsaqtAhKsGPH+84MiDaX5E=
+
+Name: res/layout/update_progress_bar.xml
+SHA1-Digest: cen+UfKOHn05II64PueRpWvdrtA=
+
+Name: res/layout/ikarus_in_app_purchase_later_screen.xml
+SHA1-Digest: juAA2/e3vYkAJeX79AqusEml8pI=
+
+Name: res/layout/capture_qrcode.xml
+SHA1-Digest: Xy4wjFI5HWJ1nn4h7/nX/OCSO98=
+
+Name: res/drawable-mdpi/list_blacklist.png
+SHA1-Digest: SHz/DQC6EcQCoMR/Y8OsxvANTi0=
+
+Name: res/layout/main_screen_mdm.xml
+SHA1-Digest: Dkaj49/uatkgFomQzkc7/OTFRoc=
+
+Name: assets/wizard/images/tutrial1.png
+SHA1-Digest: sJCDROnUD6+5kHShLeEtTQy0304=
+
+Name: res/drawable-mdpi/list_scan.png
+SHA1-Digest: AAFtE2eyOgS3rkvoI1iIcG2+OwE=
+
+Name: res/layout-sw600dp/ikarus_wizard_instruction_without_telephony.x
+ ml
+SHA1-Digest: 7q08/k/Kw6APGriGoGpD3ftD+jQ=
+
+Name: res/layout/empty_screen.xml
+SHA1-Digest: LsUCChV4mRf2RVdJ4YMUMFCiM+M=
+
+Name: res/layout/elecom_wizard_remote_control_summary.xml
+SHA1-Digest: 25vCQCaOd6NecZz8nz5TtskJu8Q=
+
+Name: res/layout-sw600dp/ikarus_trial_screen.xml
+SHA1-Digest: UBi2U6bZR4EblVmgPdt4Ye55EZI=
+
+Name: res/layout-sw600dp/ikarus_in_app_purchase_screen.xml
+SHA1-Digest: 7C2k+uPbS2qyKqiyrNX189ctUrw=
+
+Name: res/layout/elecom_in_app_purchase_screen.xml
+SHA1-Digest: 9erjpR5JgRGHtQxekAmMy0vCAm0=
+
+Name: res/drawable-ldpi/list_info.png
+SHA1-Digest: XV9EzPXK4+MTmgdB7fCqSvQFoaY=
+
+Name: res/layout/ikarus_wizard_complete.xml
+SHA1-Digest: YlA6Ppt8t1/WT9bDC1xTu2XvD8I=
+
+Name: res/drawable-ldpi/menu_delete.png
+SHA1-Digest: L/9bM1l9BctjeWvhItQ+rc0NWvo=
+
+Name: res/layout-sw600dp/ikarus_wizard_initial_update.xml
+SHA1-Digest: RRVIvaI66iC+1kWSn6wq77lrVjA=
+
+Name: res/layout-sw600dp/elecom_activation_code_later.xml
+SHA1-Digest: DZ73R06yPxgHK+SM52n4FNsCf+U=
+
+Name: res/layout-sw600dp/theft_protection_screen.xml
+SHA1-Digest: ce0CipeulDT39fpQ0EIaSX3oyCo=
+
+Name: res/layout-sw600dp/elecom_wizard_ussd.xml
+SHA1-Digest: q2jacWPB20rwv4E2zn8SkN+4d/8=
+
+Name: res/layout-sw600dp/mdm_info_screen.xml
+SHA1-Digest: +xNpccSUKEcSgRSDHBiwu7ptIR0=
+
+Name: res/layout-sw600dp/ikarus_in_app_purchase_later_screen.xml
+SHA1-Digest: OE0Sq3uvw9s7o3LJDrr/O9bZa0o=
+
+Name: res/layout-w960dp/main_screen_fragment.xml
+SHA1-Digest: xEuHInCmSHhoKo37twP3AGA5Z6Y=
+
+Name: res/layout/main_screen_all_features_buy_without_telephony.xml
+SHA1-Digest: ssSrMC/c9N1sFJRAoQ6J9dzoMt4=
+
+Name: res/drawable-ldpi/launcher.png
+SHA1-Digest: PlUmHov0mSbFhba9vo63G/0k+TA=
+
+Name: res/layout/elecom_wizard_initial_update.xml
+SHA1-Digest: RpWsVeeWwwRXfRZ2QDZ4WRYwi/4=
+
+Name: res/layout/elecom_wizard_instruction_without_dialer.xml
+SHA1-Digest: o2bMdqsdUBMv1htXnPpcT39FAzE=
+
+Name: res/drawable-ldpi/list_av.png
+SHA1-Digest: 5Ec0UjzYDWxcQ9X19iujDpKaOsM=
+
+Name: res/layout-sw600dp/ikarus_wizard_complete.xml
+SHA1-Digest: GzKHd5OCPKsUIn4IO8GmqmCZ94Y=
+
+Name: res/layout-sw600dp/ikarus_activation_code_setup_screen.xml
+SHA1-Digest: 17bu5Ukumy8wxbgqS6DCe9Bp/Jo=
+
+Name: res/layout/infection_list.xml
+SHA1-Digest: Cwy1mADzQqnpK/+cnkEeSWhAycQ=
+
+Name: res/layout-sw600dp/thanks_for_nth_upgrading_screen.xml
+SHA1-Digest: 9WPSQZzTf0+iGYMn735Jzxit3yA=
+
+Name: res/drawable/ikarus_edittext.xml
+SHA1-Digest: l8E7+adC3+QJm1T3YPtahqKtqSU=
+
+Name: res/drawable-ldpi/list_uninstall.png
+SHA1-Digest: YQePe+W4TxeOo9/KyIRy443Bpdg=
+
+Name: res/drawable/background_install.xml
+SHA1-Digest: YuXu1AD4gQpO2mxmF7um22chPGE=
+
+Name: res/layout-sw600dp/infection.xml
+SHA1-Digest: DsF4iIuOXo6Hpyxb4tHd2ZQ9/CQ=
+
+Name: res/layout/ikarus_wizard_ussd.xml
+SHA1-Digest: Z5vEWvydvSJY6IybXwuZIxUN1Gc=
+
+Name: res/layout/ikarus_title_with_help.xml
+SHA1-Digest: 20+UYBgEzHRPTxjUjBv82w4CM5w=
+
+Name: res/layout/elecom_wizard_instruction_without_telephony.xml
+SHA1-Digest: DAv0/YHwAvpK2ZLHQDusQK8104w=
+
+Name: res/drawable-mdpi-v9/notify_update.png
+SHA1-Digest: Tdn8geOAz8b4JIzwfCQ9uooGhRA=
+
+Name: res/layout/blacklist_item.xml
+SHA1-Digest: maxdxBlipKoZyn5/e8c9DVB4BjQ=
+
+Name: res/drawable/angel.png
+SHA1-Digest: Z3PB6Wg6SGYKBKK2Ki6xpvHM718=
+
+Name: res/layout-sw600dp/elecom_wizard_remote_control_summary.xml
+SHA1-Digest: 6FQ6NrjpJeI4+DAEph+K7EVt/7w=
+
+Name: res/drawable-hdpi/list_wizard.png
+SHA1-Digest: IuFOKSYqtKekGkIjumNseY1S6mg=
+
+Name: res/layout/ikarus_wizard_complete_with_settings.xml
+SHA1-Digest: BdeCimMTKVbESv1ROhN4tpsw6YE=
+
+Name: res/layout/elecom_wizard_blacklist.xml
+SHA1-Digest: Cz/LPEP0xHrxHpzcZ9BSVXPNBxM=
+
+Name: res/layout/elecom_shop_upgrade_screen.xml
+SHA1-Digest: DaCBjyERpPN67eMJgfp7cYlEPaM=
+
+Name: res/drawable-mdpi/list_webfilter.png
+SHA1-Digest: rhfxlKSIex1n+im+oKyQBBWOTVA=
+
+Name: res/drawable/ikarus_button.xml
+SHA1-Digest: 3fEhQCHyrUxBAtVJXIDucBXcfpk=
+
+Name: res/layout/main_screen_all_features_grayed_out.xml
+SHA1-Digest: Xuv/5gw+tBzGKJJjv/lnEBjJb6Y=
+
+Name: res/layout/change_password_screen.xml
+SHA1-Digest: p+g3BDWdMNENhkNL0wyu9pQ0QhU=
+
+Name: res/layout-sw600dp/ikarus_boolean_radio_group_preference_with_ne
+ xt_previous.xml
+SHA1-Digest: iaNBR+NZ/DIb83JelHvUBydVIcY=
+
+Name: res/drawable/bg_tab_active.xml
+SHA1-Digest: xu9uusOMAtyR4tQFJVnWe4SJhz4=
+
+Name: res/layout-sw600dp/ikarus_upgrade_screen_with_trial.xml
+SHA1-Digest: H9O8SMcE3WgDQwXsAdqDGoMbynk=
+
+Name: res/layout-sw600dp/elecom_wizard_blacklist_add_entries.xml
+SHA1-Digest: apwtX3HWg2iPv4yf37X/99R06ao=
+
+Name: res/drawable-hdpi/notify_scan.png
+SHA1-Digest: 5s9SUQjCrtcxhWnU8VfEBleRZxQ=
+
+Name: res/layout/ikarus_wizard_remote_control_summary.xml
+SHA1-Digest: mNdIytgQJOT6IKupMeZvLnZbRGE=
+
+Name: res/layout/elecom_wizard_blacklist_add_entries.xml
+SHA1-Digest: cCtulb1Qh1up6jNDDWHqOEILyOw=
+
+Name: res/layout/create_password_later_screen.xml
+SHA1-Digest: zEFph50BqG3VBB55Bc48xdSx6XA=
+
+Name: res/layout/elecom_wizard_complete_with_settings.xml
+SHA1-Digest: 4wFzA2dcl/NO2XBvL2X/rnwBCAY=
+
+Name: res/layout-sw600dp/elecom_wizard_web_filter.xml
+SHA1-Digest: XRGOngfGMuAwHK1EI4+K2cPyQQE=
+
+Name: res/layout-sw600dp/infection_send_lab.xml
+SHA1-Digest: ifHCZl/+E45n9TTa8djGI1QkAFE=
+
+Name: res/drawable/icon_information_rot.png
+SHA1-Digest: LIB2uaSCNLzniseN2YyyI3VTHMg=
+
+Name: res/drawable/editbox_background_focus_red.9.png
+SHA1-Digest: 1KLuLiCBmdRMXFacc3OVDmNjecs=
+
+Name: assets/wizard/images/webfiltering.png
+SHA1-Digest: 2IJvDNJwgJmgcdz5JiAf8KkCVxM=
+
+Name: res/layout-sw600dp/ikarus_wizard_complete_with_settings.xml
+SHA1-Digest: KnumjtXOEKUvnjUSv5I0TCBeifU=
+
+Name: res/drawable-hdpi-v9/notify_update.png
+SHA1-Digest: Fb9NfwjEG2xv+0jao1Y6q2U4jxA=
+
+Name: res/drawable-ldpi/status_partly.png
+SHA1-Digest: ks8zCECyuvUiD2Axmhb58kN+uak=
+
+Name: res/drawable-hdpi/status_safe.png
+SHA1-Digest: dv9wrb6RooDfdb8Xl0OjItR67+g=
+
+Name: res/drawable-hdpi/notify_update.png
+SHA1-Digest: ONxAZLYRBdHIZF2v1oOBQTSQyw4=
+
+Name: res/layout/elecom_wizard_password.xml
+SHA1-Digest: qCt5dYs4jG7W8XuOC6PJGgJtlrw=
+
+Name: res/layout-sw600dp/ikarus_eula_screen.xml
+SHA1-Digest: RDAR0GJAC968YOknDZPUTovyjDI=
+
+Name: res/layout/main_screen_item.xml
+SHA1-Digest: ha1ORf0as8Fs7ZZN4m8vUltv9kY=
+
+Name: res/drawable-hdpi/list_blacklist.png
+SHA1-Digest: 7f30DfYK7hY83Q+k4FEiHnp6MLU=
+
+Name: res/drawable-hdpi-v9/notify_scan.png
+SHA1-Digest: zDrkgoKHFOkZRKl3gwIBGXYYNq8=
+
+Name: res/drawable-ldpi-v9/notify_update.png
+SHA1-Digest: Jz8XYhKY4Fc9fwdhUq/o5Gvoulg=
+
+Name: res/layout/ikarus_in_app_purchase_screen.xml
+SHA1-Digest: 6hkz17LL+0oyYHFOuN0lpMUBQwQ=
+
+Name: assets/licenseagreement_de.txt
+SHA1-Digest: E35ZzcN64K42ZduOkXvsmurFhqk=
+
+Name: res/drawable-hdpi/list_update.png
+SHA1-Digest: omCRm5lLcN8PdbMPXovlgsCX4ww=
+
+Name: res/drawable/list_blacklist.png
+SHA1-Digest: 5/Kxe9dKaf7Ui4Nb/nzk9Cw8qLg=
+
+Name: resources.arsc
+SHA1-Digest: 6yUGcXfrHT878k1ekLsAAo/IFfI=
+
+Name: res/drawable-mdpi/list_av.png
+SHA1-Digest: c6eCmjyB/KK8tOFAwPa92zJe3G4=
+
+Name: res/drawable-ldpi/list_diebstahlschutz.png
+SHA1-Digest: 83vg1/LHmTVxs1xiodriMuUfB+w=
+
+Name: res/drawable/button_bgselected.9.png
+SHA1-Digest: SVYIOREiFVzK3PO5Yyggslkxto4=
+
+Name: res/layout-sw600dp/lock_screen.xml
+SHA1-Digest: V18uNhbGUvkQINn+gNsXQV6MPyU=
+
+Name: res/layout-sw600dp/ikarus_wizard_remote_control.xml
+SHA1-Digest: hFWzHGnsHgv2KkWiWe8IIXfQ87Q=
+
+Name: res/layout-sw600dp/ikarus_upgrade_screen_without_trial.xml
+SHA1-Digest: wNbwgHymEToBhCrO4v2bhLCrfbM=
+
+Name: res/layout-sw600dp/elecom_wizard_complete_with_settings.xml
+SHA1-Digest: C6OaYmDRNuHi0aB8eesSs+/1WXQ=
+
+Name: res/layout/mdm_info_screen.xml
+SHA1-Digest: EQneAC3IGXum5sqkbsX70kMtWFk=
+
+Name: AndroidManifest.xml
+SHA1-Digest: iQurbcl2D9JVK4qx4zXetkexc3M=
+
+Name: res/layout/scan_progress_bar.xml
+SHA1-Digest: T7r4OIZ18/xpArfAxikF1z6V2H0=
+
+Name: res/layout/thanks_for_1st_upgrading_screen_install.xml
+SHA1-Digest: +ltPbYCUFRKEh3tNXLB3I38ir9U=
+
+Name: res/layout/elecom_activation_code.xml
+SHA1-Digest: SVIRNAC6CJK1EM4wKDghBWSvKZc=
+
+Name: res/layout/ikarus_wizard_remote_control.xml
+SHA1-Digest: Ab9MXN7fxNdai2XJeXJYyA3Xcdk=
+
+Name: res/layout/ikarus_trial_screen.xml
+SHA1-Digest: dqzNWgrtrOa6VesSIpndrWxjD0U=
+
+Name: res/layout-sw600dp/elecom_wizard_instruction.xml
+SHA1-Digest: dxPN18RsrcOG/S0evpCSsyiltWs=
+
+Name: res/layout-sw600dp/elecom_eula_screen.xml
+SHA1-Digest: 989qVTMhRSBqjy9o957treJG8EQ=
+
+Name: res/layout/ikarus_checkbox_preference.xml
+SHA1-Digest: 9JzHcALainMI9USGLIhgip1hGNM=
+
+Name: res/drawable/button_bgdisabled.9.png
+SHA1-Digest: U2h98I9z7gcVED8G1klXSXwbSHc=
+
+Name: res/layout-sw600dp/ikarus_wizard_password.xml
+SHA1-Digest: VbVwf68g63IMUWkyhILyQ9ORna8=
+
+Name: res/layout/password_dialog.xml
+SHA1-Digest: e8bn21IZuPpnoKJA3O87Kp7S870=
+
+Name: res/drawable/background.xml
+SHA1-Digest: hE7Suvr32VL3+qwdvKSin43NldQ=
+
+Name: res/drawable/close.png
+SHA1-Digest: YYyDMJ5eC7v+25Emg7WXsmI+seM=
+
+Name: res/layout-sw600dp/elecom_wizard_remote_control.xml
+SHA1-Digest: dMHD9GEGMagqh1QINutjxqnbLeU=
+
+Name: res/layout/elecom_eula_screen.xml
+SHA1-Digest: US5wvYasGn6PWlgqVJXlNXnKY7Q=
+
+Name: res/layout-sw600dp/blacklist_editor.xml
+SHA1-Digest: snbjSefZfEj6OG2CbdniquvFjws=
+
+Name: res/drawable-mdpi-v9/notify_error.png
+SHA1-Digest: TN97D/BuOGe1BL90ybRQ0UQ8i+c=
+
+Name: res/drawable-hdpi/list_info.png
+SHA1-Digest: FEnLozByl5sy+GdEGc3edQ5/KVg=
+
+Name: res/layout-sw600dp/anti_virus_screen_mdm.xml
+SHA1-Digest: l9yAKz/Ix+x5LF0b2lzp4vLjDtk=
+
+Name: res/layout-sw600dp/ikarus_wizard_remote_control_summary.xml
+SHA1-Digest: C9uTspS3LkPyH9TPAOWVjybRlzw=
+
+Name: classes.dex
+SHA1-Digest: h8tedL1s+I0c95gU3AKzcrRooVY=
+
+Name: res/drawable/background_install_smaller.xml
+SHA1-Digest: 7zxYOA1M815Zbk73M3Uc5jY28ZY=
+
+Name: res/layout/elecom_google_upgrade_screen.xml
+SHA1-Digest: QrSrj/Dde9vesg9IZvgvAylaUXI=
+
+Name: res/layout/ikarus_upgrade_screen_without_trial.xml
+SHA1-Digest: hQfRnHyOrzFRoiQQhPWvWbIyerk=
+
+Name: res/drawable-mdpi-v9/notify_scan.png
+SHA1-Digest: DBY8/tOefDW5lcN3z7EIefjfM4w=
+
+Name: res/drawable-mdpi/notify_update.png
+SHA1-Digest: 4JOTQ2nXKD30NQRtLwwvdEOA2ec=
+
+Name: assets/wizard/images/remote.png
+SHA1-Digest: FN7v7TBZPRMZsD5zcvPFPl0WDP0=
+
+Name: assets/ikarus-gsb.crt
+SHA1-Digest: /v6q++WMH/xIK+ITudFhUXg6pj0=
+
+Name: res/xml/ikarus_admin_policy.xml
+SHA1-Digest: fe3reRIotKu1jr/YDGQcQKMI/F8=
+
+Name: res/layout/ikarus_wizard_web_filter.xml
+SHA1-Digest: sZ0aGClQUlqYiZagjLARmV9EWRE=
+
+Name: res/layout/status_bar_normal.xml
+SHA1-Digest: 4aleQiln/nMfeECR9gq0M8NjPMI=
+
+Name: res/layout-sw600dp/ussd_block.xml
+SHA1-Digest: aCn2aeteLrSBG9GDucGJ6jOWYTc=
+
+Name: res/layout-sw600dp/elecom_shop_upgrade_screen.xml
+SHA1-Digest: jPKTvXjZS4EqATSB/C+mVuBrLwE=
+
+Name: res/layout/infection_found_screen.xml
+SHA1-Digest: xdYULxrYWtyOIZ9UwFBpKm+iJbs=
+
+Name: res/layout/ikarus_wizard_password.xml
+SHA1-Digest: ySOeF2WrqkQSLGtZYHooEJSLlTo=
+
+Name: res/anim/cycle_7.xml
+SHA1-Digest: EjBB4a5C5ftevA2dujErByM8x6I=
+
+Name: assets/licenseagreement_en.txt
+SHA1-Digest: k3/RiZ7vIkwl5rrQ4Qwojxq93ns=
+
+Name: res/layout-sw600dp/observation_screen.xml
+SHA1-Digest: 6U3M4TvqsIX6YJCk6SoCvSmWlO0=
+
+Name: res/layout/web_filter_screen.xml
+SHA1-Digest: usTg8x5cp/qlpdJcuaXbT568hCQ=
+
+Name: res/layout/ikarus_wizard_instruction.xml
+SHA1-Digest: a39aPnxV3sFbJzfWEiMUSdkVux0=
+
+Name: res/layout-sw600dp/ikarus_wizard_blacklist_add_entries.xml
+SHA1-Digest: 1ePAgb5YWANHxzwM/wN43l04kQI=
+
+Name: res/drawable-hdpi/list_av.png
+SHA1-Digest: iEYkipd8ymasAc77+EZMU16hKZo=
+
+Name: res/drawable-ldpi/notify_update.png
+SHA1-Digest: L5TLR+POi7D85OrYCogW2zFPL1s=
+
+Name: res/layout-sw600dp/infection_found_screen.xml
+SHA1-Digest: 21ixfxeHh8SY8Rq5iqzVCHfuMkM=
+
+Name: res/layout/main_screen_all_features_buy.xml
+SHA1-Digest: PncOrl30xMnz1xI5vDxjaceioK0=
+
+Name: res/layout-sw600dp/elecom_wizard_instruction_without_telephony.x
+ ml
+SHA1-Digest: WI31Ro3CEEsAXuWKZKH+rl5XWSs=
+
+Name: res/drawable-mdpi/launcher.png
+SHA1-Digest: IkCVeEqTdiQJ1can5yniGLWw6KA=
+
+Name: res/layout/ikarus_wizard_instruction_without_telephony.xml
+SHA1-Digest: OhL6+3HlAMHsW3c/4+P/WuhwJos=
+
+Name: res/layout-sw600dp/elecom_info_screen.xml
+SHA1-Digest: VqTuNaYQI3bFAvFwTx5EYGwOpMo=
+
+Name: res/layout-sw600dp/ikarus_wizard_blacklist.xml
+SHA1-Digest: QZesOVGsMr+h42I1+d0WtcXZb0A=
+
+Name: res/raw/beep.ogg
+SHA1-Digest: swN9tJue4UsGRYOvaFiQcrztfsA=
+
+Name: res/layout/infection_send_lab.xml
+SHA1-Digest: tXeAKObr+fe8PGHGVBhk6pYlQS0=
+
+Name: res/layout/ikarus_wizard_initial_update.xml
+SHA1-Digest: w4Flloj/LFSGHXc76IwZgDmKGic=
+
+Name: res/drawable/bg_blacklist_entry.xml
+SHA1-Digest: PXnBczi520XXX3mUaZN4KVeIHv4=
+
+Name: res/layout/theft_protection_screen.xml
+SHA1-Digest: /MEQwaXFzz2rCguKXtMUdBYY7RE=
+
+Name: res/layout-sw600dp/ikarus_wizard_instruction.xml
+SHA1-Digest: xDy7rrLM0o+W58K2vatd2m73+tA=
+
+Name: res/drawable-hdpi/launcher.png
+SHA1-Digest: ZhKtIA2d/hp57L1dEi2cmxey9vY=
+
+Name: res/layout-w1280dp/main_screen_fragment.xml
+SHA1-Digest: r2nwqkcKwOOV+lhUz7st1k0ZF6s=
+
+Name: assets/config-file-public-key
+SHA1-Digest: x8M08U11/u2TSkjw6ZPFu6Ka8lQ=
+
+Name: res/layout/elecom_activation_code_later.xml
+SHA1-Digest: 8hfapMdbTdUXgtNSd02+uyY0sZk=
+
+Name: res/layout/sms_filter_screen.xml
+SHA1-Digest: tf/4qIzT254DUPtuQVdx13hJZP4=
+
+Name: res/layout-sw600dp/info_screen.xml
+SHA1-Digest: cH55j0YCQtTCDrEQpvBXbBx7vjk=
+
+Name: res/layout-sw600dp/observation_screen_without_ussd.xml
+SHA1-Digest: UIXJVBRYbna/t0ul3MCSq1HGDSI=
+
+Name: res/layout-sw600dp/ikarus_wizard_instruction_without_dialer.xml
+SHA1-Digest: shGtddz+Kl7G1Drl37HCL1aRYaQ=
+
+Name: res/layout/ikarus_license_screen.xml
+SHA1-Digest: rDu0vN/FP0VZJj7fr6n8bTlgB10=
+
+Name: res/drawable-mdpi/list_uninstall.png
+SHA1-Digest: Y9rxs5Ci6sCLPGJ9g8jp+O2jAR4=
+
+Name: res/layout-sw600dp/elecom_wizard_instruction_without_dialer.xml
+SHA1-Digest: Yjcu4/1v4ip0xJb23dXTbqZlLWc=
+
+Name: res/layout/url_warning_screen.xml
+SHA1-Digest: 14XoVN9CR+K2bysCvsa3IaS+d9I=
+
+Name: res/drawable-hdpi-v9/notify_error.png
+SHA1-Digest: W1Pg7UmRBFIkQo10p3B3udxsjeU=
+
+Name: res/drawable-ldpi/list_blacklist.png
+SHA1-Digest: n+hfyC9i/xGy2K8mmunNpKpja0g=
+
+Name: res/drawable-hdpi/notify_error.png
+SHA1-Digest: D+1NFJ3GngcCc6OzwVBLE/Go4SY=
+
+Name: res/drawable-mdpi/status_partly.png
+SHA1-Digest: 1YIClXH31Kq/mYJNQU75Gf18/2A=
+
+Name: res/layout/ikarus_license_screen_item.xml
+SHA1-Digest: oJ0vxnU1JQVOcBPXlKQ8qzb1cnY=
+
+Name: res/drawable-mdpi/menu_delete.png
+SHA1-Digest: +7cCe1xp5Foy4znQiDJ08/mvBG0=
+
+Name: res/layout/ikarus_checkbox_preference_small.xml
+SHA1-Digest: 97eP6a+luT1xak74hY5SaQDmL/k=
+
+Name: res/drawable-mdpi/list_wizard.png
+SHA1-Digest: 1Uogs4FzYOksemG7SA85jfNvYMk=
+
+Name: res/layout/ikarus_wizard_blacklist.xml
+SHA1-Digest: wyICT0WEDFr4Xb8cwpttDDV9+UE=
+
+Name: res/layout-sw600dp/sms_filter_screen.xml
+SHA1-Digest: sW3yDAvJkUHWEzycI8QlKT8wBk4=
+
+Name: res/drawable-ldpi/notify_error.png
+SHA1-Digest: JQ59mr3WmoieIUEFII0OzTTj7SU=
+
+Name: res/drawable-mdpi/status_safe.png
+SHA1-Digest: Ba2EVJt/1WvpvkevfBD4JSE7mmg=
+
+Name: res/layout-sw600dp/elecom_activation_code.xml
+SHA1-Digest: 39iSHbU142XQvEdsLkZPZynEa8A=
+
+Name: res/drawable-hdpi/list_uninstall.png
+SHA1-Digest: 0q160V87LanfMdrR6KsOIDKljDg=
+
+Name: res/drawable/bright_angel.png
+SHA1-Digest: lJpBSnVKOD5JfxT4omlLL6QzIEI=
+
+Name: res/layout-sw600dp/ikarus_trial_setup_screen.xml
+SHA1-Digest: teVgDaYAC1BCv9lVqpmw7eWxg14=
+
+Name: res/layout/main_screen_all_features.xml
+SHA1-Digest: mpCe8hzWbEddQOB8mu3zFtD6o/8=
+
+Name: res/drawable-mdpi/notify_error.png
+SHA1-Digest: ZRvpwjVbIVD55ndQfynyEtC9QHI=
+

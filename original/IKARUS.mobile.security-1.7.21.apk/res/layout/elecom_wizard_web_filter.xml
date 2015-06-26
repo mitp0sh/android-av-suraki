@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/IkarusRootLayoutMobile"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security">
+    <com.ikarus.mobile.security.preference.frontend.IkarusBooleanRadioGroupPreferenceWithNextPrevious android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" ikarus:preference_key="webFilteringEnabled" ikarus:preference_text="@string/elecom_wizard_web_filter_question" ikarus:preference_label_enable="@string/boolean_preference_enable" ikarus:preference_label_disable="@string/boolean_preference_disable" ikarus:preference_label_next="@string/elecom_wizard_navigation_next" ikarus:preference_label_previous="@string/elecom_wizard_navigation_back" />
+    <com.ikarus.mobile.security.view.LocalHtmlWebView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/radioGroup" android:layout_alignParentTop="true" ikarus:html="@string/elecom_html_web_filter" />
+</RelativeLayout>

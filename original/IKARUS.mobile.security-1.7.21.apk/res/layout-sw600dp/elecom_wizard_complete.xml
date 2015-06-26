@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:baselineAligned="false" style="@style/IkarusRootLayoutInstall"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security">
+    <RelativeLayout android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="5.0">
+        <com.ikarus.mobile.security.view.LocalHtmlWebView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/navigationLayout" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="false" ikarus:html="@string/elecom_html_setup_complete" />
+        <LinearLayout android:id="@id/navigationLayout" android:paddingBottom="60.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <Button android:id="@id/noButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/button_no" android:layout_weight="5.0" android:onClick="onNoClicked" />
+            <GridView android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <Button android:id="@id/yesButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/button_yes" android:layout_weight="5.0" android:onClick="onYesClicked" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/layoutMain" style="@style/IkarusRootLayoutMobile">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:layout_width="wrap_content" android:layout_height="wrap_content" ikarus:help_text="@string/information_observation_apps_body" ikarus:help_title="@string/information_observation_apps_header" ikarus:title_text="@string/observate_apps_title" />
+            <com.ikarus.mobile.security.preference.frontend.IkarusCheckBoxPreference android:layout_width="fill_parent" android:layout_height="wrap_content" ikarus:preference_key="appProtectionActivated" ikarus:preference_text="@string/observate_apps_preference" ikarus:preference_small="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="@color/status_partly" android:id="@id/warningAppProtectionDisabled" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/observation_screen_warning" />
+            <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:layout_width="wrap_content" android:layout_height="wrap_content" ikarus:help_text="@string/information_observation_sdcard_body" ikarus:help_title="@string/information_observation_sdcard_header" ikarus:title_text="@string/observate_sdcard_title" />
+            <com.ikarus.mobile.security.preference.frontend.IkarusCheckBoxPreference android:layout_width="fill_parent" android:layout_height="wrap_content" ikarus:preference_key="sdCardProtectionActivated" ikarus:preference_text="@string/observate_sdcard_preference" ikarus:preference_small="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="@color/status_partly" android:id="@id/warningSdCardProtectionDisabled" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/observation_screen_warning" />
+            <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:layout_width="wrap_content" android:layout_height="wrap_content" ikarus:help_text="@string/information_ussd_body" ikarus:help_title="@string/information_ussd_header" ikarus:title_text="@string/ussd_title" />
+            <com.ikarus.mobile.security.preference.frontend.IkarusCheckBoxPreference android:id="@id/ussdProtectionPreference" android:layout_width="fill_parent" android:layout_height="wrap_content" ikarus:preference_key="ussdProtectionSwitch" ikarus:preference_text="@string/ussd_preference_body" ikarus:preference_initialization="UssdPreferenceInitialization" ikarus:preference_change_handling="UssdPreferenceChangeHandling" ikarus:preference_small="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="@color/status_partly" android:id="@id/warningUssdProtectionDisabled" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/observation_screen_warning" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" style="@style/IkarusRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:id="@id/scanHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_scan_body_without_scheduling" ikarus:help_title="@string/information_scan_header" ikarus:title_text="@string/heading_scan" />
+        <com.ikarus.mobile.security.view.ScanProgressBar android:id="@id/scanProgressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/scanLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="5.0">
+                <Button android:id="@id/buttonAppScan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_app_only_scan" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewAppScan" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/scanPlaceholder" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="5.0">
+                <Button android:id="@id/buttonFullScan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_full_scan" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewFullScan" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewNextAutomaticScan" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:id="@id/infectionHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_infection_body" ikarus:help_title="@string/information_infection_header" ikarus:title_text="@string/heading_infections" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="11.0">
+            <Button android:id="@id/buttonInfections" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/button_infections" android:layout_weight="5.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/infectionListContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ikarus.mobile.security.view.InfectionList android:id="@id/infectionList" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:id="@id/removeAllInfections" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="11.0">
+            <Button android:layout_gravity="right" android:id="@id/buttonRemoveAllInfections" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/menu_delete" android:layout_weight="5.0" />
+        </LinearLayout>
+        <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:id="@id/updateHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_update_body" ikarus:help_title="@string/information_update_header" ikarus:title_text="@string/heading_update" />
+        <com.ikarus.mobile.security.view.UpdateProgressBar android:id="@id/updateProgressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="center_vertical" android:id="@id/buttonUpdate" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/button_update_now" android:layout_weight="5.0" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewLastUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewNextAutomaticUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security">
+    <RelativeLayout style="@style/IkarusRootLayoutMobile">
+        <com.ikarus.mobile.security.preference.frontend.IkarusBooleanRadioGroupPreferenceWithNextPrevious android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" ikarus:preference_key="remoteControlEnabledMaster" ikarus:preference_text="@string/ikarus_wizard_remote_control_question" ikarus:preference_initialization="HomeScreenDependentPreferenceInitialization" ikarus:preference_change_handling="RemoteMasterChangeHandling" ikarus:preference_label_enable="@string/boolean_preference_enable" ikarus:preference_label_disable="@string/boolean_preference_disable" ikarus:preference_label_next="@string/ikarus_wizard_navigation_next" ikarus:preference_label_previous="@string/ikarus_wizard_navigation_back" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_remote_control_header" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/wizard_remote_control_summary_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ikarus_wizard_remote_control_content" android:layout_above="@id/radioGroup" android:layout_below="@id/header" />
+    </RelativeLayout>
+</ScrollView>

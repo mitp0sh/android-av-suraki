@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:fillViewport="true" style="@style/IkarusRootLayoutMobile">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:id="@id/scanHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_scan_body_without_scheduling" ikarus:help_title="@string/information_scan_header" ikarus:title_text="@string/heading_scan" />
+            <com.ikarus.mobile.security.view.ScanProgressBar android:id="@id/scanProgressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/buttonAppScan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_app_only_scan" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewAppScan" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/buttonFullScan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_full_scan" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewFullScan" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewNextAutomaticScan" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:id="@id/infectionHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_infection_body" ikarus:help_title="@string/information_infection_header" ikarus:title_text="@string/heading_infections" />
+            <Button android:id="@id/buttonInfections" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_infections" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewInfectionCount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:id="@id/updateHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_update_body" ikarus:help_title="@string/information_update_header" ikarus:title_text="@string/heading_update" />
+            <com.ikarus.mobile.security.view.UpdateProgressBar android:id="@id/updateProgressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <Button android:id="@id/buttonUpdate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_update_now" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewLastUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewNextAutomaticUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

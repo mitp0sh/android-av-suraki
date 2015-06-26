@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/inAppPurchaseLayout" android:baselineAligned="false" style="@style/IkarusRootLayoutInstall">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/ikarus_trial_title" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/ikarus_trial" />
+            <LinearLayout android:gravity="bottom|center" android:paddingBottom="60.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:layout_gravity="bottom" android:id="@id/activateButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ikarus_trial_button" android:onClick="onActivateButtonClicked" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

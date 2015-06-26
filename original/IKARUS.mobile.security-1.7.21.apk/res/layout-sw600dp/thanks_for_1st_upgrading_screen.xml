@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/IkarusRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center|left" android:id="@id/thanksForUpgradingTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/thanks_for_upgrading_title_full" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/thanksForUpgradingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/thanksForUpgradingTitle" />
+        <Button android:id="@id/buttonContinue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="@string/thanks_for_1st_upgrading_continue" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/tab" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@android:color/black" android:id="@id/buttonManual" android:background="@drawable/bg_tab" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/elecom_wizard_blacklist_choose_contact" android:layout_weight="1.0" />
+        <Button android:enabled="false" android:textColor="@android:color/black" android:id="@id/buttonHistory" android:background="@drawable/bg_tab" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/elecom_wizard_blacklist_history" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ScrollView android:id="@id/manual" android:background="@drawable/bg_blacklist_entry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/list" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <AutoCompleteTextView android:layout_gravity="top" android:id="@id/blacklistContactPickerTextView" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:hint="@string/blacklist_add_hint" android:layout_weight="5.0" android:inputType="text" style="@style/IkarusEdittext" />
+                <FrameLayout android:layout_width="0.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+                <Button android:layout_gravity="top" android:id="@id/buttonNew" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:text="@string/add_blacklist_contact" android:layout_weight="5.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView android:id="@id/history" android:background="@drawable/bg_blacklist_entry" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.ikarus.mobile.security.view.blacklisteditor.History android:orientation="vertical" android:id="@id/messageList" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

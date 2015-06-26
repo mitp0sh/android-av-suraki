@@ -1,0 +1,36 @@
+﻿
+IKARUS SECURITY SOFTWARE—LICENSE AND SERVICE AGREEMENT
+
+Please read this agreement carefully! By downloading the software, you accept to be bound by these license terms. If you do not agree to these license terms, cancel the download process. In this case, you are not entitled to further use of the software. A breach of any of these license terms may constitute a copyright infringement and shall be prosecuted to the full extent of the law.
+
+1.	License
+1.1.	IKARUS Security Software GmbH (referred to as “IKARUS” in the following) as a licensor grants to you as a licensee the non-transferable and non-exclusive right of using the IKARUS mobil.security LITE software including the software description, the user manual, and the documentation (collectively referred to as “software” in the following) that you have downloaded to your mobile phone.
+1.2.	The terms of this agreement are also applicable to any updates to the software that may be released in the future. Therefore, in accepting this license agreement, you also agree to enter into a service agreement entitling you to future updates to the software.
+
+2.	License Scope
+2.1.	You may use the software on your own private mobile phone. You may not use the software on multiple mobile phones or transmit it to third parties. In addition you may not make the software that is licensed for your mobile phone accessible in any way and/or make it directly or indirectly available  for use to third parties in return for payment or free of charge.
+
+2.2.	You may not produce copies of any kind of the software for any purposes (including personal use) and may not transmit such copies unless IKARUS has expressly agreed in writing to such transmission. In addition, you may not without our express written content compile, reverse engineer, disassemble, or otherwise translate the software to a human-perceivable form, except as required by law. Furthermore, you may not modify, adapt, translate to a different language, sell, or make available the software in any way to third parties for use in return to payment or free of charge unless permitted by this license agreement or required by law.
+
+3.	Warranty
+3.1.	IKARUS warrants that the software is free from defect and basically usable as detailed in the documentation according to the current state of the art at the time of delivery without meeting the requirements of all possible uses. You agree that developing completely error-free software is not possible at the current state of the art. This is particularly true for the area of virus protection where new viruses, Trojan horses, worms, and similar programs are constantly emerging, many of which are focused on circumventing anti-virus software.
+3.2.	For that reason, IKARUS assumes no warranty that the software will meet all your requirements, that the features of the software can be used at all times and without any defects in any desired combination with any data, programs, or systems, and that the occurrence of other software defects can be excluded by correcting existing software defects. Moreover, IKARUS assumes no warranty for defects, failure, or damage caused by inappropriate operation, damages in transit, operating-system errors, changed operating-system components, interfaces, parameters, or the use of suitable organizational resources and media.
+3.3.	This warranty shall become void if you or any third party make changes or reverse engineer the software without our express written consent. Also, IKARUS shall not accept any expenses in this context. IKARUS shall assume no warranty for software that has been changed, extended, damaged, or used outside the agreed terms of use unless the change, extension, or damage did not cause the defect.
+3.4.	This warranty shall become void if you fail to inform IKARUS about any possible software defect in writing no later than 8 days after discovery (or within the set time limits if you are a consumer). The warranty period shall be two years for end consumers and six months for any other purchasers.
+
+4.	Claims for Damages
+4.1.	Claims for damages against IKARUS shall be excluded unless liability arises because of deliberate action or gross negligence as required by law. The exclusion of liability shall also cover, in particular, damages caused by viruses or similar pieces of software because all-embracing virus protection is not possible at the current state of the art. Liability shall also be excluded for consequential damages, including, but not limited to, loss of business profits, and for indirect damages. In addition, liability shall be excluded for damages caused by unauthorized changes by third parties as well as for inappropriate operation or installation.
+4.2.	IKARUS expressly recommends to regularly backup all data stored to your mobile phone in order to minimize damages. If you fail to create backups, IKARUS shall not be liable for damages resulting from this failure. This limitation of liability shall not apply if IKARUS acted with willful intent or gross negligence in causing the event that resulted in the damages; however, failure to create a backup shall be considered as being contributory negligence.
+
+5.	Beginning and Termination of the License Agreement
+5.1.	This agreement becomes effective by concurrence of wills between IKARUS and you, or at the latest, by the actual installation of the software on your mobile phone.
+5.2.	If you fail to comply with any term of this agreement, in particular, regarding the extent of the rights conferred to you, IKARUS shall be entitled to cancel this agreement with immediate effect. In this case, further use of the software shall not be permitted.
+
+6.	Quality Assurance
+You may immediately join our signature-quality assurance program. Under this program, you will submit static information to IKARUS that is used for improving virus detection on your system. If you prefer not to join this program, you can disable the corresponding option in the software settings. Please note: IKARUS does not process personal information for this program.
+
+7.	Final Provisions
+7.1.	This Agreement shall be governed by and construed in accordance with Austrian law, excluding the UN Convention on the International Sales of Goods. The Vienna Commercial Court (Gericht für Handelssachen) or, if you are a consumer, your place of general jurisdiction, shall be the court of jurisdiction for any disputes arising from this agreement. Amendments and/or supplements to this agreement must be made in writing and the binding signatures of all contractual partners for legal validity. This also applies for deviations from this form.
+
+If you do not agree to the provisions of this license agreement, no contract will be concluded between IKARUS and you; in this case, you are not entitled to use or install the software. By installing and/or using this software, you agree to be bound to these license terms. Please contact us if you intend to cancel this agreement.
+

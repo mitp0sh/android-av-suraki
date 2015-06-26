@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/outerContainer" android:paddingBottom="@dimen/separator_thickness" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onItemClicked"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/iconContainer" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/icon" style="@style/MainMenuItemIcon" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/innerContainer" android:paddingLeft="3.0dip" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/innerWrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/textWrapper" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/LITE_red" android:ellipsize="marquee" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="13.0sp" android:textColor="@color/black" android:ellipsize="marquee" android:id="@id/infoLine" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:minLines="1" />
+            </LinearLayout>
+            <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminate="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

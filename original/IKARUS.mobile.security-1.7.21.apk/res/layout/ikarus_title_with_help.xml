@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/titleRoot" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="left" android:id="@id/titleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:singleLine="false" android:layout_toLeftOf="@id/titleHelpButton" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Button android:id="@id/titleHelpButton" android:background="@drawable/icon_information_rot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="24.0dip" android:minHeight="24.0dip" android:height="24.0dip" android:width="24.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/infoLayout" android:background="@drawable/heading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/titleText" android:layout_alignParentLeft="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="@color/LITE_red" android:id="@id/infoLayoutTextViewTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/LITE_red" android:id="@id/infoLayoutTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="right" android:id="@id/infoLayoutCloseButton" android:background="@drawable/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:height="24.0dip" android:width="24.0dip" />
+    </LinearLayout>
+</RelativeLayout>

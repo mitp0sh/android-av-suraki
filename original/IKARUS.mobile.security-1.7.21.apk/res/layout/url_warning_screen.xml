@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/IkarusRootLayoutMobile"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_above="@id/navigation" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/url_warning_header" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textViewWarning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/url_warning_text" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:typeface="monospace" android:id="@id/textViewUrl" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewNotice" android:paddingTop="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/url_warning_google_attribution" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/navigation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <Button android:id="@id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/url_warning_button_block" android:onClick="onBlockClicked" />
+        <Button android:id="@id/button2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/url_warning_button_continue" android:onClick="onGoThereAnywayClicked" />
+    </LinearLayout>
+</RelativeLayout>

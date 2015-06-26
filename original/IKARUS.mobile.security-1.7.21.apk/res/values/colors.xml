@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_gray">#ffcccccc</color>
+    <color name="gray">#ff555555</color>
+    <color name="status_safe">#ff82b600</color>
+    <color name="status_partly">#ffe78a05</color>
+    <color name="status_infected">#ffd3301a</color>
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+    <color name="InfectedCount">#ffd43219</color>
+    <color name="status_safe_gradient">#ff72a600</color>
+    <color name="LITE_red">#ffd43219</color>
+    <color name="LITE_red2">#ffd46655</color>
+    <color name="LITE_progress_start">@color/LITE_red</color>
+    <color name="LITE_progress_end">@color/LITE_red2</color>
+    <color name="ignored_infection">#ffcccccc</color>
+</resources>

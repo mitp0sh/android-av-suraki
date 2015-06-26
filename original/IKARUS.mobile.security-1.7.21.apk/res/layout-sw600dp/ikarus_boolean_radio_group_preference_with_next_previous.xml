@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/settingDescription" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/radioButtonParent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="11.0">
+        <RadioButton android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" />
+        <RadioButton android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/navigationLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/previousButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="5.0" />
+        <GridView android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:id="@id/nextButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="5.0" />
+    </LinearLayout>
+</LinearLayout>

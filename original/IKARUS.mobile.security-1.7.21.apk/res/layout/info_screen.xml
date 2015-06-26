@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/IkarusRootLayoutMobile"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/logo" android:scaleType="fitStart" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <ScrollView android:id="@id/scrollviewabout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/linLAy3" android:paddingLeft="@dimen/box_side_margin" android:paddingRight="@dimen/box_side_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" />
+                <TextView android:textStyle="bold" android:id="@id/about_version_product" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_database" />
+                <TextView android:id="@id/about_version_avdb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_scan_engine" />
+                <TextView android:id="@id/about_version_scan_engine" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_antispam_engine" />
+                <TextView android:id="@id/about_version_antispam_engine" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ikarusSupportInfoSection" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:gravity="center|left" android:layout_gravity="left" android:id="@id/vendorName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vendor_name" />
+                <TextView android:gravity="center|left" android:autoLink="phone|email|web" android:id="@id/vendorAddress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vendor_address" />
+            </LinearLayout>
+            <TextView android:gravity="center|left" android:id="@id/about_license" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <Button android:id="@id/sendLogFileButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_log" />
+            <Button android:id="@id/eulaButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/menu_license" />
+            <TextView android:id="@id/textViewEula" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_database" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

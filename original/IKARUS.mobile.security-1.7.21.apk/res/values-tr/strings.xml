@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IKARUS mobile.security</string>
+    <string name="app_name_launcher">IKARUS</string>
+    <string name="NativeLanguageName">Türkçe</string>
+    <string name="about_antispam_engine">AntiSPAM motoru</string>
+    <string name="about_database">Veritabanı</string>
+    <string name="about_license_ikarus_lite">"Lisans bitiş tarihi: %1$s.
+
+Seri numarası: %2$s."</string>
+    <string name="about_license_ikarus_lite_basic">Uygulamanın ücretsiz sürümünü kullanıyorsunuz</string>
+    <string name="about_license_ikarus_lite_basic_prominent_upgrade">Lisans süreniz sona erdi. Ücretsiz sürümün temel özelliklerini kullanmaya devam edebilirsiniz.</string>
+    <string name="about_license_ikarus_lite_date_format">MMM dd, yyyy</string>
+    <string name="about_license_ikarus_lite_trial">"Deneme lisansı bitiş tarihi: %1$s.
+
+Seri numarası: %2$s."</string>
+    <string name="about_scan_engine">Tarama motoru</string>
+    <string name="acquiring_trial">Deneme lisansı etkinleştirme...</string>
+    <string name="activation_qr_code_false_text">Yanlış bir QR kodu tarandı. Lütfen tekrar deneyiniz.</string>
+    <string name="activation_qr_code_scan_button_text">QR kodunu tara</string>
+    <string name="activation_qr_code_scan_description">QR kodunu kamera ile tara.</string>
+    <string name="add_blacklist_contact">Ekle</string>
+    <string name="alarm_preference">Cihazda Tetikleme alarm sinyali</string>
+    <string name="alarm_title">Tetikleme alarmı</string>
+    <string name="answersms_button">Cevap metni düzenle</string>
+    <string name="answersms_hint">Otomatik cevap metni gir:</string>
+    <string name="answersms_preference">Otomatik cevap gönder</string>
+    <string name="answersms_savebutton">Kaydet</string>
+    <string name="answersms_title">Kısa mesaj cevap</string>
+    <string name="anti_virus_main_screen_button_scan_progress">Taranıyor...</string>
+    <string name="anti_virus_main_screen_button_update_progress">Güncelleniyor...</string>
+    <string name="automatic_scans_enabled">Otomatik taramaları etkinleştir</string>
+    <string name="automatic_updates_enabled">Otomatik güncellemeleri etkinleştir</string>
+    <string name="blacklist_add_hint">İsim veya telefon numarasını girin</string>
+    <string name="blacklist_contact_no_phone_number">Telefon numarası yok</string>
+    <string name="blacklist_default_sms_response">Kısa mesajınız gönderilemedi. IKARUS mobile.security mesajınızı engelledi.</string>
+    <string name="blacklist_no_name">Bilinmeyen numara</string>
+    <string name="boolean_preference_disable">Devre Dışı Bırak</string>
+    <string name="boolean_preference_enable">Etkinleştir</string>
+    <string name="btn_accept_licence">Kabul et</string>
+    <string name="btn_change_password">Parola değiştir</string>
+    <string name="btn_next">Devam</string>
+    <string name="button_app_only_scan">Uygulama Taramasını Başlat</string>
+    <string name="button_cancel">İptal</string>
+    <string name="button_full_scan">Tam Taramayı Başlat</string>
+    <string name="button_infections">Enfeksiyonları göster ve düzenle</string>
+    <string name="button_infections_hide">Enfeksiyonları gizle</string>
+    <string name="button_initial_update_cancel">İptal</string>
+    <string name="button_initial_update_continue">Devam</string>
+    <string name="button_initial_update_start">Başlat</string>
+    <string name="button_log">"IKARUS' a sistem günlüklerini gönder"</string>
+    <string name="button_no">Hayır</string>
+    <string name="button_ok">Tamam</string>
+    <string name="button_remove_from_quarantine">Sil</string>
+    <string name="button_show_storage_dump">Ayarları Göster</string>
+    <string name="button_update_now">Güncelle</string>
+    <string name="button_yes">Evet</string>
+    <string name="change_password_label_old">Eski IKARUS parolası:</string>
+    <string name="checking_for_existing_license">Mevcut lisans denetleniyor...</string>
+    <string name="create_password_enter">Lütfen hırsızlık-koruma özelliklerine ihtiyacınız olduğunda kullanmanız için kişisel IKARUS parolanızı seçin:</string>
+    <string name="create_password_title">IKARUS Parola</string>
+    <string name="demoversion_button">Deneme lisansını etkinleştirme</string>
+    <string name="demoversion_hint">30 gün ücretsiz tam sürüm testi</string>
+    <string name="demoversion_title">Deneme Lisansını Etkinleştir</string>
+    <string name="disabled_telephony_not_available">Cihaz telefon özelliğine sahip olmadığı için özellik devre dışı bırakıldı.</string>
+    <string name="elecom_activation_description">Etkinleştirme kodunuzu girin.</string>
+    <string name="elecom_activation_title">Ürün Etkinleştirme</string>
+    <string name="elecom_button_help">Yardım</string>
+    <string name="elecom_get_activation_code_url">http://appstore.elecom.co.jp/ikarus/update_license.html</string>
+    <string name="elecom_get_activation_code_url_new_license">http://appstore.elecom.co.jp/ikarus/new_license.html</string>
+    <string name="elecom_get_activation_code_url_trial_license">http://appstore.elecom.co.jp/ikarus/new_license.html</string>
+    <string name="elecom_get_serial">Etkinleştirme kodu yok mu?</string>
+    <string name="elecom_html_remote">&lt;html>&lt;head>&lt;meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\" />&lt;title>IKARUS mobile security&lt;/title>&lt;/head>&lt;body>&lt;div id=\"ikarus-mobile-security\">&lt;div>&lt;div>&lt;div>&lt;h2 style=\"color:#D43219\">Uzaktan Kontrol &amp; Hırsızlık Koruması&lt;/h2>&lt;/div>&lt;/div>&lt;p>IKARUS mobile.security cihazınız kaybolur ya da çalınırsa kontrol etmek için özellikler sunar:&lt;p/>Başka bir cep telefonundan gönderilen basit kısa mesaj komutlarını göndererek, cihazınızı bulabilir ya da kilitleyebilir, kişisel verileri silebilir ya da bir alarm çaldırabilirsiniz. Bu özelliği etkinleştirirseniz, IKARUS mobile.security bazı ek sistem haklarının verilmesini isteyebilir.&lt;/p>&lt;p>&lt;img alt=\"uzak\" style=\"max-width:100%\" src=\"file:///android_asset/wizard/images/remote.png\" height=\"196\" width=\"336\" />&lt;/p>&lt;/div>&lt;/div>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_remote_summary">&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">Uzaktan Kontrol Özeti&lt;/h1>&lt;p>Cihazınız artık uzaktan kontrol ile hırsızlık-korumalıdır. Çalınan cihazınızın telefon numarasına aşağıdaki iletilerden birini gönderebilirsiniz:&lt;/p>&lt;ul> &lt;li>&lt;strong>sil:&lt;i>parola&lt;/i>&lt;/strong> - Cihaz fabrika ayarlarına döner ve tüm veriler (müzik, fotoğraf, video ve diğer kişisel dosyalar) silinerek sıfırlanır.&lt;/li> &lt;li>&lt;strong>kilitle:&lt;i>parola&lt;/i>&lt;/strong> - Cihaz hemen kilitlenir.&lt;/li> &lt;li>&lt;strong>konum:&lt;i>parola&lt;/i>&lt;/strong> - Cihaz hemen yerini belirtecek - Bir Google Maps bağlantısı olarak koordinatlarını alacaksınız.&lt;/li> &lt;li>&lt;strong>alarm:&lt;i>parola&lt;/i>&lt;/strong> - Bir alarm sesi çalınacak.&lt;/li> &lt;/ul>&lt;p>Eğer cihazınızı kilitlerseniz, o zaman kilidi açmak için IKARUS şifrenizi girmeniz gerekir.&lt;/p>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_setup_complete">&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">Kurulum tamamlandı&lt;/h1>&lt;p>IKARUS mobile.security kullanmak için hazır. &lt;/p>&lt;b>Cihazınızı şimdi taratmak istiyormusunuz?&lt;/b>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_sms_filter">&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">Kısa Mesaj Karalistesi&lt;/h1>&lt;p>Kısa mesaj karalistesi telefon ya da tabletiniz için SPAM koruması sunar:&lt;p/> Karalistedeki telefon numaralarından gelen kısa mesajlar otomatik olarak silinir. Adres defterinden veya son gelen mesajlardan telefon numaralarını karalisteye eklemek için seçin.&lt;/p>&lt;p>&lt;img style = \"max-width: 100%\" alt=\"\" height=\"165\" src=\"file:///android_asset/wizard/images/smsfiltering.png\" width=\"336\" />&lt;/p>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_ussd">&lt;html>&lt;bodybgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">USSD Koruması&lt;/h1>&lt;p>IKARUS mobile.security USSD koruması sağlar. Bu koruma cihazınıza zarar verecek veya kullanılamaz hale getirecek USSD kontrol kodlarının yürütülmesini engeller. USSD kodları telefon numaraları gibi görünür ama bunun yerine cihazınızda kod çalıştırır. Hatta istemeden tarayıcınızda bir web sayfasında zararsız görünen bir linke tıklayarak tehlikeli bir USSD kodu çalıştırabilirsiniz.&lt;/p>&lt;p class=\"x-\">&lt;img alt=\"\" height=\"146\" src=\"file:///android_asset/wizard/images/ussd.png\" width=\"336\" />&lt;/p>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_web_filter">&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">URL Filtresi&lt;/h1>&lt;p>URL filtresi internette tehlikeli web sitelerine karşı sizi korur.&lt;p/>Kötü amaçlı yazılım phishing veya hosting için bilinen zararlı sitelere erişmeye çalıştığınızda Filtre sizi uyarır.&lt;/p>&lt;p>&lt;img alt=\"webfilter\" style=\"max-width:100%\" src=\"file:///android_asset/wizard/images/webfiltering.png\" height=\"190\" width=\"270\" />&lt;/p>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_wizard_and_setup_complete">&lt;html>&lt;bodybgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">Tüm ayarlar tamamlanmıştır. &lt;/ H1> &lt;p> IKARUS mobile.security kullanıma hazırdır. &lt;/p>&lt;/p>&lt;/p>&lt;b>Cihazınızı şimdi taratmak istiyormusunuz?&lt;/b>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_wizard_intro">"&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">IKARUS mobile.security&lt;br/>Kurulum Sihirbazı&lt;/h1>&lt;p>IKARUS mobile.security' ye hoşgeldiniz! Bu kurulum sihirbazı yazılımın kurulumu boyunca size rehberlik ve aşağıdaki özelliklerini yapılandırmak için size yardımcı olacaktır: &lt;ul>&lt;li>USSD Koruması&lt;/li>&lt;li>Hırsızlık koruması&lt;/li>&lt;li>Kısa Mesaj Karalistesi&lt;/li>&lt;li>URL Filtresi&lt;/li>&lt;li>Başlangıç Taraması&lt;/li>&lt;/ul>&lt;/p>&lt;b>Sihirbazı kullanmak için \"Sonraki\" tıklayın!&lt;/b>&lt;/body>&lt;/html>"</string>
+    <string name="elecom_html_wizard_intro_without_dialer">"&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">IKARUS mobile.security&lt;br/>Kurulum Sihirbazı&lt;/h1>&lt;p>IKARUS mobile.security' ye hoşgeldiniz! Bu kurulum sihirbazı yazılımın kurulumu boyunca size rehberlik edecek ve aşağıdaki özelliklerini yapılandırmak için yardımcı olacaktır: &lt;ul>&lt;li>Hırsızlık Koruması&lt;/li>&lt;li>Kısa Mesaj Karalistesi&lt;/li>&lt;li>URL Filtresi&lt;/li>&lt;li>Başlangıç Taraması&lt;/li>&lt;/ul>&lt;/p>&lt;b>Sihirbazı kullanmak için \"Sonraki\" tıklayın!&lt;/b>&lt;/body>&lt;/html>"</string>
+    <string name="elecom_html_wizard_intro_without_telephony">"&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">IKARUS mobile.security&lt;br/>Kurulum Sihirbazı&lt;/h1>&lt;p>IKARUS mobile.security' ye hoşgeldiniz! Bu kurulum sihirbazı yazılımın kurulumu boyunca size rehberlik edecek ve aşağıdaki özelliklerini yapılandırmak için yardımcı olacaktır: &lt;ul>&lt;li>URL Filtresi&lt;/li>&lt;li>Başlangıç Taraması&lt;/li>&lt;/ul>&lt;/p>&lt;b>Sihirbazı kullanmak için \"Sonraki\" tıklayın!&lt;/b>&lt;/body>&lt;/html>"</string>
+    <string name="elecom_lifetime_license">License of the full version is valid.</string>
+    <string name="elecom_roam_google_play">Lisans etkinleştirme</string>
+    <string name="elecom_thanks_for_1st_upgrading">Tam sürümü satın aldığınız için teşekkür ederiz.</string>
+    <string name="elecom_thanks_for_nth_upgrading">Tam sürümü satın aldığınız için teşekkür ederiz.</string>
+    <string name="elecom_wizard_blacklist_choose_contact">İrtibat seçimi</string>
+    <string name="elecom_wizard_blacklist_description">Engellemek istediğiniz kişileri girin. Adres defterindeki kişileri seçin, kısa mesaj geçmişine göz atın veya el ile bir telefon numarası girin.</string>
+    <string name="elecom_wizard_blacklist_history">Son mesajlar</string>
+    <string name="elecom_wizard_blacklist_history_empty">Alınan mesaj yok</string>
+    <string name="elecom_wizard_navigation_back">Geri</string>
+    <string name="elecom_wizard_navigation_next">Sonraki</string>
+    <string name="elecom_wizard_navigation_skip">Atla</string>
+    <string name="elecom_wizard_remote_control_question">Uzaktan kontrolü etkinleştirmek istiyor musunuz?</string>
+    <string name="elecom_wizard_sms_filter_question">Mesaj karalistesini etkinleştirmek istiyor musunuz?</string>
+    <string name="elecom_wizard_ussd_question">USSD korumayı etkinleştirmek istiyor musunuz?</string>
+    <string name="elecom_wizard_web_filter_question">URL filtresini etkinleştirmek istiyor musunuz?</string>
+    <string name="enum_prefs_12hours">Günde iki kez</string>
+    <string name="enum_prefs_daily">Günlük</string>
+    <string name="enum_prefs_twoDays">Her iki günde</string>
+    <string name="enum_prefs_weekly">Haftalık</string>
+    <string name="error_empty_password">Lütfen bir parola girin</string>
+    <string name="error_enter_two_passwords">Lütfen parolayı iki kez girin!</string>
+    <string name="error_old_password_not_correct">Eski parola doğru değil</string>
+    <string name="error_passwords_not_identical">Parolalar eşleşmiyor</string>
+    <string name="error_passwords_syntax_incorrect">Parola yönergeler (6 ila 15 karakter, aA-zZ ve 0-9, en az bir sayı ve bir harf) ile uyumlu değil</string>
+    <string name="google_in_app_purchase_screen_buy">Google Play ile sürümü yükselt</string>
+    <string name="google_in_app_purchase_screen_explanation">"Google Play' den tam sürümünü satın almak almak için\"Google Play ile sürümü yükselt\" tıklayın. Satın alma tamamlandığında
+
+, \"Sonraki\" butonuna tıklayınız."</string>
+    <string name="google_in_app_purchase_screen_next">Sonraki</string>
+    <string name="google_in_app_purchase_screen_title">Google Play ile sürümü yükselt</string>
+    <string name="heading_infections">Enfeksiyonlar</string>
+    <string name="heading_scan">Tara</string>
+    <string name="heading_update">Güncelle</string>
+    <string name="home_screen_dependent_preference_change_message">"Ek haklar gereklidir. Bir sonraki diyalogda cihazı yöneticisini etkinleştirin, ve bir sonrakinde IKARUS' u varsayılan olarak belirleyin."</string>
+    <string name="home_screen_dependent_preference_change_other_app">"Yanlış varsayılan uygulaması: \"%1$s\"
+
+Sıfırlama: Tamam -> \"Tüm\" ->\"%2$s\" -> \"Varsayılanları temizle.\""</string>
+    <string name="home_screen_dependent_preference_change_yes_no">Cihaz yöneticisi aktif değil ya da IKARUS varsayılan olarak ayarlanmamış. Tekrar denemek ister misiniz?</string>
+    <string name="ignore_infection">Yoksay</string>
+    <string name="ikarus_activation_code_hint">Etkinleştirme kodu</string>
+    <string name="ikarus_activation_code_send">Lisansı etkinleştir</string>
+    <string name="ikarus_admin_description">Uygulama hırsızlık koruması için bu hakları gerektirir</string>
+    <string name="ikarus_get_activation_code_url">http://www.ikarussecurity.com/tr/ueruenler/</string>
+    <string name="ikarus_license_restored">Lisansınız geri yüklenmiştir</string>
+    <string name="ikarus_trial">"Deneme sürümü ile, 30 gün için tam sürümün tüm özelliklerini kullanabilirsiniz. 
+nTest aşamasından sonra, bir lisans satın alabilir ya da ücretsiz sürümün temel özelliklerini kullanabilirsiniz."</string>
+    <string name="ikarus_trial_button">Deneme sürümünü etkinleştir</string>
+    <string name="ikarus_trial_title">Deneme Sürümü</string>
+    <string name="ikarus_wizard_blacklist_content">Kısa mesaj karalistesi telefon ya da tabletiniz için SPAM koruması sağlar. Karalistedeki telefon numaralarından gelen metin mesajları otomatik olarak silinir. Adres defterinden veya son gelen mesajlardan telefon numaralarını karalisteye eklemek için seçin.</string>
+    <string name="ikarus_wizard_blacklist_header">Kısa Mesaj Karalistesi</string>
+    <string name="ikarus_wizard_complete_content">"IKARUS mobile.security kullanıma hazır. 
+
+Cihazınızı şimdi taramak istiyormusunuz?"</string>
+    <string name="ikarus_wizard_complete_header">Kurulum tamamlandı</string>
+    <string name="ikarus_wizard_complete_with_settings_content">"Konfigürasyon tamamlandı. IKARUS mobile.security kullanıma hazır. 
+
+Cihazınızı şimdi taramak istiyormusunuz?"</string>
+    <string name="ikarus_wizard_complete_with_settings_header">Kurulum tamamlandı</string>
+    <string name="ikarus_wizard_instruction_content">"IKARUS mobile.security' i seçtiğiniz için teşekkür ederiz. Sonraki sayfalarda, uygulamanın tüm önemli özellikleri açıklayacağız ve bazı ayarları yapılandırmanıza izin vereceğiz.
+
+Ayarları sonra yapılandırmak isterseniz, \"Atla\" tıklayın. Yapılandırma sihirbazını başlatmak için, \"İleri\" tıklayın."</string>
+    <string name="ikarus_wizard_instruction_header">IKARUS mobile.security Kurulum Sihirbazı</string>
+    <string name="ikarus_wizard_instruction_no_telephony_content">"IKARUS mobile.security' i seçtiğiniz için teşekkür ederiz. Sonraki sayfalarda, uygulamanın tüm önemli özelliklerini açıklayacağız ve bazı ayarları yapılandırmanıza izin vereceğiz.
+
+Ayarları sonra yapılandırmak isterseniz, \"Atla\" tıklayın. Yapılandırma sihirbazını başlatmak için, \"İleri\" tıklayın."</string>
+    <string name="ikarus_wizard_instruction_no_telephony_header">IKARUS mobile.security Kurulum Sihirbazı</string>
+    <string name="ikarus_wizard_instruction_without_dialer_content">"IKARUS mobile.security' i seçtiğiniz için teşekkür ederiz. Sonraki sayfalarda, uygulamanın tüm önemli özelliklerini açıklayacağız ve bazı ayarları yapılandırmanıza izin vereceğiz.
+
+Ayarları sonra yapılandırmak isterseniz, \"Atla\" tıklayın. Yapılandırma sihirbazını başlatmak için, \"İleri\" tıklayın."</string>
+    <string name="ikarus_wizard_instruction_without_dialer_header">IKARUS mobile.security Kurulum Sihirbazı</string>
+    <string name="ikarus_wizard_navigation_back">Geri</string>
+    <string name="ikarus_wizard_navigation_next">İleri</string>
+    <string name="ikarus_wizard_navigation_skip">Atla</string>
+    <string name="ikarus_wizard_remote_control_content">"Telefon ya da tablet kaybettiniz mi, ya da çaldırdınız mı​​? Eğer IKARUS mobile.security kullanırsanız sorun değil. Başka bir cep telefonu ile gönderilen basit bir kısa mesaj ile komutları kullanarak, cihazı bulmak veya kilitlemek, kişisel verileri silmek ya da bir alarm çaldırmak mümkün.
+
+Bu özelliği etkinleştirmek isterseniz,IKARUS mobile.security için bazı ek sistem hakları vermek istenebilir."</string>
+    <string name="ikarus_wizard_remote_control_header">Uzaktan Kontrol ve Hırsızlık Koruması</string>
+    <string name="ikarus_wizard_remote_control_question">Uzaktan kontrolü etkinleştirmek istiyor musunuz?</string>
+    <string name="ikarus_wizard_remote_control_summary_content">&lt;html>&lt;body>&lt;p>Cihazınız artık uzaktan kontrol ile hırsızlık-korumalıdır. Çalınan cihazınızın telefon numarasına aşağıdaki iletilerden birini gönderebilirsiniz:&lt;/p>&lt;ul>&lt;li>&lt;strong>kilitle:&lt;em>parola&lt;/em>&lt;/strong> - Cihaz hemen kilitlenir.&lt;/li>&lt;li>&lt;strong>yerini konum:&lt;em>parola&lt;/em>&lt;/strong> - Cihaz hemen yerini belirtecek - Bir Google Maps bağlantısı olarak koordinatlarını alacaksınız.&lt;/li>&lt;li>&lt;strong>alarm:&lt;em>parola&lt;/em>&lt;/strong> - Cihaz kilitlenecek ve bir alarm sesi çalınacak.&lt;/li>&lt;li>&lt;strong>sil:&lt;em>parola&lt;/em>&lt;/strong> - Cihaz fabrika ayarlarına döner ve tüm veriler (müzik, fotoğraf, video ve diğer kişisel dosyalar) silinerek sıfırlanır.&lt;/li>&lt;/ul>&lt;p>Eğer cihazınızı kilitlerseniz, o zaman kilidi açmak için IKARUS şifrenizi girmeniz gerekir.&lt;/p>&lt;p>Örnek: IKARUS şifreniz &lt;em>abcdef12&lt;/em> ve cihazınızı kilitlemek istiyorsunuz. Telefon numaranıza aşağıdaki içeriğe sahip bir mesaj gönderin: &lt;em>kilitle: abcdef12&lt;/em>&lt;/p>&lt;/body>&lt;/html></string>
+    <string name="ikarus_wizard_remote_control_summary_header">Uzak Kontrol Mesajları</string>
+    <string name="ikarus_wizard_sms_filter_question">Mesaj karalistesini etkinleştirmek istiyor musunuz?</string>
+    <string name="ikarus_wizard_ussd_content">IKARUS mobile.security cihazınızın zarar göreceği veya kullanılamaz hale geleceği USSD kontrol kodlarının yürütülmesini engelleyerek bir Android güvenlik açığına karşı koruma sağlar. USSD kodları, telefon numaraları gibi görünür, ama bunun yerine cihazınızda kod çalıştırır. Hatta istemeden tarayıcınızda bir web sayfasında, görünüşte zararsız bir linke tıklayarak tehlikeli bir USSD kod çalıştırabilirsiniz. USSD kodları, SIM karta da zarar verebilir.</string>
+    <string name="ikarus_wizard_ussd_header">USSD Koruması</string>
+    <string name="ikarus_wizard_ussd_question">USSD korumayı etkinleştirmek istiyormusunuz?</string>
+    <string name="ikarus_wizard_web_filter_content">URL filtresi, internetteki tehlikeli web sitelerine karşı sizi korur. Kötü amaçlı yazılım, phishing veya hosting için bilinen zararlı sitelere erişmeye çalıştığınızda, sizi uyarır.</string>
+    <string name="ikarus_wizard_web_filter_header">URL Filtresi</string>
+    <string name="ikarus_wizard_web_filter_question">URL filtresini etkinleştirmek istiyor musunuz?</string>
+    <string name="inappbuy_button">Google Play ile</string>
+    <string name="inappbuy_hint">"Google Play' de zaman sınırı olmadan lisansınızı etkinleştirin"</string>
+    <string name="inappbuy_title">Google Play ile</string>
+    <string name="infection_count">%1$s enfeksiyonları var!</string>
+    <string name="infection_count_1">1 enfeksiyon var!</string>
+    <string name="infection_found_go_to_app">"IKARUS mobile.security' i aç"</string>
+    <string name="infection_list_label_date">Tarih:</string>
+    <string name="infection_list_label_signature">Kimlik:</string>
+    <string name="infection_list_label_virus">Virüs:</string>
+    <string name="infection_when_found_format">MMM dd, yyyy HH:mm</string>
+    <string name="information_answersms_body">Mesajı reddedilmiş göndericileri bilgilendirme. Otomatik cevap için herhangi bir metin seçin.</string>
+    <string name="information_answersms_header">Otomatik cevap</string>
+    <string name="information_demoversion_body">Deneme sürümü, ücretsiz olarak, 30 gün boyunca ve hiçbir yükümlülüğünüz olmadan tam özellik seti ile test etmenize olanak sağlar.</string>
+    <string name="information_demoversion_header">Deneme sürümü</string>
+    <string name="information_inappbuy_body">"Google Play' den satın alırken, tüm ek güvenlik özellikleri içeren zaman sınırsız tam sürümü alacaksınız."</string>
+    <string name="information_inappbuy_header">Google Play</string>
+    <string name="information_infection_body">Bu liste, cihazınızda bir virüs tarafından hangi dosyaların enfekte olduğunu gösterir. Bu dosyaları silebilir veya daha fazla analiz için IKARUS laboratuvarına gönderebilirsiniz.</string>
+    <string name="information_infection_header">Cihazınızdaki enfeksiyonlar</string>
+    <string name="information_observation_apps_body">Yeni veya güncellenmiş uygulamalar arka planda izlenir. Bir uygulama indirildiğinde veya sürüm yükseltildiğinde, kötü amaçlı yazılıma karşı uygulamayı kontrol etmek için otomatik olarak tarama başlatılır.</string>
+    <string name="information_observation_apps_header">Uygulama kurulumlarını izleme</string>
+    <string name="information_observation_sdcard_body">Dosya erişimi arka planda izlenir. Dosyalar, internet sitelerinden indirme gibi, SD kart veya dahili depolamalarda, otomatik olarak kötü amaçlı yazılıma karşı kontrol edilir.</string>
+    <string name="information_observation_sdcard_header">Dosya izleme</string>
+    <string name="information_password_body">Parola, hırsızlık koruması için gereklidir. Kısa metin mesajları ile cihazınızı kontrol etmek için kullanacaksınız. Cihazı kilitlediğiniz zaman, kilidi açmak için parola girmek zorundasınız.</string>
+    <string name="information_password_header">Hırsızlık-Koruma parolası</string>
+    <string name="information_remotealarm_body">Çalıntı cihazın telefon numarasına başka bir hat ile \"alarm:parola\" kısa mesajını gönderdiğinizde bir alarm sesi çalınır.</string>
+    <string name="information_remotealarm_header">Tetikleme alarmı</string>
+    <string name="information_remotelocate_body">Çalıntı cihazın telefon numarasına başka bir hat ile \"konum: parola\" kısa mesajını gönderdiğinizde, cihaz hemen yerini belirtecek - bir Google Maps bağlantısı olarak koordinatları alacaksınız.</string>
+    <string name="information_remotelocate_header">Konum</string>
+    <string name="information_remotelock_body">Çalınan cihazın telefon numarasına başka bir hattan \"kilitle:parola\" içeren bir kısa mesaj gönderdiğinizde cihaz hemen kilitlenir.</string>
+    <string name="information_remotelock_header">Cihaz kilitleme</string>
+    <string name="information_remotewipe_body">Çalıntı cihazın telefon numarasına başka bir hattan \"sil:parola\" kısa mesajını gönderdiğinizde, cihaz fabrika ayarlarına döner, ve tüm veriler (müzik, fotoğraf, video ve diğer kişisel dosyaları) silinerek sıfırlanır.</string>
+    <string name="information_remotewipe_header">Cihaz silme</string>
+    <string name="information_scan_body">Tam taramada hafıza kartı taramasında, bir uygulama taraması sadece cihazda yüklü uygulamaları kapsar. Ayrıca taramaları planlayabilirsiniz.</string>
+    <string name="information_scan_body_without_scheduling">Tam taramada hafıza kartı taramasında, bir uygulama taraması sadece cihaza yüklenmiş uygulamaları kapsar.</string>
+    <string name="information_scan_header">Virüs taraması</string>
+    <string name="information_sigqa_body">Anonim virüs istatistikleri IKARUS kalite güvencesine katkı sağlar: Program, bulunan virüsleri IKARUS laboratuarına anonim verilere iletir.</string>
+    <string name="information_sigqa_header">Virüs istatistikleri ile kalite güvencesi</string>
+    <string name="information_simprotection_body">SIM kart çıkarıldığında veya değiştirildiğinde, o cihaz hemen kilitlenir ve sadece parola girildiğinde kilit açılabilir.</string>
+    <string name="information_simprotection_header">SIM kart değiştirme algılama</string>
+    <string name="information_smsblacklist_body">Karalistedeki telefon numaralarından gelen metin mesajları otomatik olarak silinir. Adres defterinden veya son gelen mesajlar telefon numaralarını seçin.</string>
+    <string name="information_smsblacklist_header">İstenmeyen mesajları silme</string>
+    <string name="information_update_body">Virüs algılama mekanizmamız mevcut tehdit durumuna adaptasyon için sürekli olarak en son virüs tanımları ile güncellenir. Bu nedenle, düzenli güncellemeler - manuel veya zaman kontrolü altında - güvenliğinizi artırır.</string>
+    <string name="information_update_header">Veritabanı güncelleme</string>
+    <string name="information_upgradecode_body">Etkinleştirme kodları ile, tam sürüme yükseltme için esnek lisans koşulları arasında seçim yapabilirsiniz.</string>
+    <string name="information_upgradecode_header">Etkinleştirme kodları</string>
+    <string name="information_urlfilter_body">URL filtresi, internetteki zararlı siteler, bilinen phishing veya hosting zararlı kodlarına karşı sizi uyarır.</string>
+    <string name="information_urlfilter_header">Web sayfaları için URL filtresi</string>
+    <string name="information_ussd_body">USSD koruma, cihazınıza zarar verecek veya kullanılamaz hale getirebilecek USSD kontrol kodlarının yürütülmesini engeller. USSD kodları telefon numaraları gibi görünür, ama bunun yerine cihazınızda kod çalıştırır.</string>
+    <string name="information_ussd_header">USSD kodları</string>
+    <string name="initial_update_description">IKARUS mobile.security virüs tarayıcının, AntiSpam ve veritabanının güncel sürümlerini indirir. Bu bileşenler düzenli olarak güvenliğinizin sağlanması için IKARUS laboratuvarında kötü amaçlı yazılım uzmanları tarafından güncellenir.</string>
+    <string name="initial_update_error">Bir hata oluştu. Daha sonra tekrar deneyiniz.</string>
+    <string name="initial_update_succeeded">Tarayıcı, AntiSpam ve veritabanı başarıyla indirildi.</string>
+    <string name="initial_update_title">Güncelleniyor</string>
+    <string name="label_automatic_scans">Taramalar programı</string>
+    <string name="label_automatic_updates">Güncellemeler programı</string>
+    <string name="label_confirm_password">Yeni parola doğrulama:</string>
+    <string name="label_password">Yeni parola:</string>
+    <string name="lang_desc_chs">Çince, basitleştirilmiş</string>
+    <string name="lang_desc_cs">Çekce</string>
+    <string name="lang_desc_de">Almanca</string>
+    <string name="lang_desc_en">İngilizce</string>
+    <string name="lang_desc_fr">Fransızca</string>
+    <string name="lang_desc_hr">Hırvatça</string>
+    <string name="lang_desc_it">Italyanca</string>
+    <string name="lang_desc_ja">Japonca</string>
+    <string name="lang_desc_ru">Rusça</string>
+    <string name="lang_desc_sp">İspanyolca</string>
+    <string name="lang_desc_tr">Türkçe</string>
+    <string name="last_app_scan">Son uygulama taraması %1$s at %2$s</string>
+    <string name="last_full_scan">Son tam tarama %1$s at %2$s</string>
+    <string name="license_choice_screen_lite_description">Hırsızlık koruması, mesaj karalistesi ve URL filtresi ile tam sürümünü satın alın</string>
+    <string name="license_choice_screen_lite_skip">Geç ve ücretsiz sürümü kullan</string>
+    <string name="license_choice_screen_lite_title">Tam sürüme yükseltme?</string>
+    <string name="license_days_left">Kalan gün: %1$d</string>
+    <string name="license_expires_soon">Lisans süresi dolmak üzere!</string>
+    <string name="licensing_error_activation_code_server_connection">IKARUS servisine ulaşılamadı ya da doğru cevap gönderilemedi. Daha sonra tekrar deneyiniz.</string>
+    <string name="licensing_error_activation_code_server_wrong_code">Etkinleştirme kodu geçersiz. Kodu kontrol edin.</string>
+    <string name="licensing_error_google_billing_not_supported">Google üzerinden lisans işleme desteklenmez.</string>
+    <string name="licensing_error_google_cannot_connect">Google sunucuna bağlantı kurulamadı.</string>
+    <string name="licensing_error_internal_error">Bir iç lisans hata oluştu. Daha sonra tekrar deneyiniz.</string>
+    <string name="licensing_error_license_expired">Lisans süreniz doldu.</string>
+    <string name="licensing_error_no_email">Geçerli eposta adresi ile bir hesap olmadan lisans satın alınamaz.</string>
+    <string name="licensing_error_unknown">Bilinmeyen bir hata oluştu. Daha sonra tekrar deneyiniz.</string>
+    <string name="lite_title_free">IKARUS mobile.security - Ücretsiz sürüm</string>
+    <string name="lite_title_full">IKARUS mobile.security - Ücretsiz sürüm</string>
+    <string name="lite_title_no_access">IKARUS mobile.security - lisanssız</string>
+    <string name="lite_title_trial">IKARUS mobile.security - Deneme Sürümü</string>
+    <string name="logging_error">Sistem günlüğüne gönderirken bir hata oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="main_menu_anti_virus">AntiVirüs</string>
+    <string name="main_menu_blacklist_info_line_2_more_blocked">%1$d mesajları reddedildi</string>
+    <string name="main_menu_blacklist_info_line_2_one_blocked">1 mesaj reddedildi</string>
+    <string name="main_menu_blacklist_info_line_2_zero_blocked">Henüz reddedilen mesaj yok</string>
+    <string name="main_menu_buy_info_line">Bu ürünün tam sürümünü satın al</string>
+    <string name="main_menu_info">Bilgi</string>
+    <string name="main_menu_info_extra_text">IKARUS mobile.security için yardım ve bilgi</string>
+    <string name="main_menu_observation">İzleme</string>
+    <string name="main_menu_remotecontrol_activated">Uzaktan kontrol etkinleştirildi</string>
+    <string name="main_menu_remotecontrol_deactivated">Uzaktan kontrol etkinleştirilmedi</string>
+    <string name="main_menu_remotecontrol_partially_active">Uzaktan kontrol kısmen etkinleştirildi</string>
+    <string name="main_menu_sms_filter">Mesaj Karalistesi</string>
+    <string name="main_menu_sms_filter_disabled">Mesaj karalistesi devre dışı</string>
+    <string name="main_menu_sms_filter_enabled">Mesaj karalistesi etkin</string>
+    <string name="main_menu_theft_protection">Hırsızlık Koruma</string>
+    <string name="main_menu_tutorial_wizard">Kurulum sihirbazını yeniden başlat</string>
+    <string name="main_menu_uninstall">Kaldır</string>
+    <string name="main_menu_uninstall_extra_text">Bu uygulamayı kaldır</string>
+    <string name="main_menu_update_never_updated">Güncelleme henüz yapılmadı</string>
+    <string name="main_menu_update_updating_now">Güncelleniyor...</string>
+    <string name="main_menu_upgrade">Sürüm yükseltme</string>
+    <string name="main_menu_virus_list_no_viruses">Enfeksiyon yok</string>
+    <string name="main_menu_web_filter">URL Filtre</string>
+    <string name="main_menu_wizard">Kurulum sihirbazını yeniden başlat</string>
+    <string name="main_screen_anti_virus_line2">Son güncelleme %1$s at %2$s</string>
+    <string name="main_screen_buy_infoline_basic">Hırsızlık koruması, mesaj karalistesi ve URL filtre ile tam sürümünü satın alın</string>
+    <string name="main_screen_buy_infoline_expired">Lisans süresi doldu. Şimdi tam sürümü satın al.</string>
+    <string name="main_screen_buy_infoline_full">Lisansınız %1$s tarihinde sona eriyor. Şimdi uzatın!</string>
+    <string name="main_screen_buy_infoline_trial">Deneme lisansınız %1$s tarihinde sona eriyor. Şimdi tam sürümü satın alın.</string>
+    <string name="main_screen_observation_line1_disabled">Eksik izleme</string>
+    <string name="main_screen_observation_line1_enabled">İzleme uygulamaları, depolama ve indirmeler</string>
+    <string name="main_screen_observation_line2_disabled">USSD koruma devre dışı</string>
+    <string name="main_screen_observation_line2_enabled">USSD koruması etkinleştirildi</string>
+    <string name="main_screen_theft_protection_sim_disabled">SIM kart koruması devre dışı</string>
+    <string name="main_screen_theft_protection_sim_enabled">SIM kart koruması etkinleştirildi</string>
+    <string name="main_screen_web_filter_line1_disabled">URL filtre devre dışı</string>
+    <string name="main_screen_web_filter_line1_enabled">URL filtre etkinleştirildi</string>
+    <string name="main_screen_web_filter_line2_disabled">Uyarılar gösterilmeyecektir</string>
+    <string name="main_screen_web_filter_line2_enabled">Uyarılar gösterilecektir</string>
+    <string name="mdm_version">MDM Versiyon</string>
+    <string name="menu_delete">Tüm enfeksiyonları sil</string>
+    <string name="menu_license">Lisans sözleşmesi</string>
+    <string name="message_enter_password">Lütfen IKARUS parolanızı girin:</string>
+    <string name="next_automatic_app_scan">Sonraki otomatik uygulama taraması %1$s</string>
+    <string name="next_automatic_full_scan">Sonraki otomatik tam tarama %1$s</string>
+    <string name="next_automatic_scan_none">Otomatik tarama programlanmadı</string>
+    <string name="next_automatic_update">Sonraki otomatik güncelleme %1$s</string>
+    <string name="next_automatic_update_none">Otomatik güncelleme programlanmadı</string>
+    <string name="no_automatic_scans_because_no_license">Otomatik taramalar yapılamıyor: lisans geçerli değil!</string>
+    <string name="notification_apk_update_available_body">"IKARUS mobile.security' nin yeni bir sürümü mevcut"</string>
+    <string name="notification_apk_update_available_header">Yeni IKARUS Sürümü</string>
+    <string name="notification_scan_message">Virüsler için taranıyor</string>
+    <string name="notification_scan_ticker">Virüs Taraması</string>
+    <string name="notification_update_message">Virüs veritabanı güncelleniyor</string>
+    <string name="notification_update_reminder_message">Lütfen virüs veritabanını güncelleyin!</string>
+    <string name="notification_update_reminder_title">Eski veritabanı</string>
+    <string name="notification_update_ticker">Veritabanı güncelleniyor</string>
+    <string name="notification_upload_file">"Enfeksiyon IKARUS' a gönderiliyor"</string>
+    <string name="notification_upload_file_error">Virüslü dosya gönderilemedi!</string>
+    <string name="notification_upload_file_success">Virüslü dosya gönderimi başarılı</string>
+    <string name="notification_virus_found_ticker_title">Virüs bulundu!</string>
+    <string name="observate_apps_preference">İzleme uygulamaları</string>
+    <string name="observate_apps_title">Tüm uygulamaları izleme</string>
+    <string name="observate_sdcard_preference">İzleme dosyaları</string>
+    <string name="observate_sdcard_title">Dosyaların izlemesi</string>
+    <string name="observation_screen_warning">Eğer bu özellik devre dışı olursa, IKARUS sizi koruyamaz!</string>
+    <string name="open_browser_message">Tarayıcıyı Aç?</string>
+    <string name="other_app_clear_defaults">"Yanlış varsayılan uygulaması: \"%1$s\".
+
+Sıfırlamak için: Tamam -> \"%2$s\" -> \"%3$s\" -> \"%4$s\""</string>
+    <string name="password_needed">Bu özellik için bir IKARUS parolası gereklidir.</string>
+    <string name="password_needed_button">IKARUS Parolası Oluştur</string>
+    <string name="password_requirements">6 - 15 karakter, aA–zZ ve 0–9, en az bir sayı ve bir harf.</string>
+    <string name="password_successfully_changed">IKARUS parolanız değiştirildi.</string>
+    <string name="password_title">IKARUS Parolası</string>
+    <string name="prefs_blacklist_sms_cost_warning">Otomatik cevap metin mesajları sınıfına göre şarj edilir.</string>
+    <string name="prefs_radmin_alarm_failed">Uzaktan alarm devre dışı bırakıldı.</string>
+    <string name="prefs_radmin_alarm_raised">Alarm tetiklendi.</string>
+    <string name="prefs_radmin_lock_bruteforcewarning">Birisi telefon numaranızdan kilit talebinizi devre dışı bırakmaya çalışıyor.</string>
+    <string name="prefs_radmin_lock_is_performed">Cihazınız kilitlendi.</string>
+    <string name="prefs_radmin_lock_not_activated">Uzaktan kilitleme devre dışı.</string>
+    <string name="prefs_radmin_lock_released_sms">Kilidiniz veya alarmınız devre dışı bırakıldı.</string>
+    <string name="prefs_radmin_lock_summary">Uzaktan kilitleme etkin</string>
+    <string name="prefs_radmin_lock_title">Cihaza yetkisiz erişimi engelleme</string>
+    <string name="prefs_radmin_track_located_sms">Cihazınız burada bulunmaktadır: %1$s</string>
+    <string name="prefs_radmin_track_not_activated">Uzaktan saptama etkinleştirilmedi.</string>
+    <string name="prefs_radmin_track_summary">Uzaktan saptama etkin</string>
+    <string name="prefs_radmin_track_title">Cihazın uzaktan saptanması</string>
+    <string name="prefs_radmin_wipe_summary">Uzaktan silmeyi etkinleştir</string>
+    <string name="prefs_radmin_wipe_title">Fabrika ayarlarına sıfırla ve verileri sil</string>
+    <string name="prefs_radmin_wipeout_is_performed">Uzaktan silmeyi çalıştır.</string>
+    <string name="prefs_radmin_wipeout_not_activated">Uzaktan silme devre dışı bırakıldı.</string>
+    <string name="prefs_remote_location_box_message">"Konum kaynaklarının tümü şu anda etkin değil. En hızlı ve en doğru yerin tespiti için: 
+ Wi-Fi üzerinde açın. GPS ve kablosuz ağdaki yer ayarlarını 
+ açın"</string>
+    <string name="prefs_remote_location_box_title">Cihaz konumu</string>
+    <string name="prefs_remote_lock_box_title">Uzaktan kilitlemeyi etkinleştir</string>
+    <string name="prefs_remote_lock_box_title_alarm">Uzaktan alarmı etkinleştir</string>
+    <string name="prefs_update_only_wifi">Sadece kablosuz ağ ile güncelle</string>
+    <string name="progress_bar_infections">Enfeksiyonlar:</string>
+    <string name="progress_bar_scan_total">Kontrol edildi:</string>
+    <string name="progress_bar_scanning">Taranıyor...</string>
+    <string name="radio_button_autoscan_full">Tam Tarama</string>
+    <string name="radio_button_autoscan_quick">Uygulama Tarama</string>
+    <string name="remote_command_alarm">Alarm</string>
+    <string name="remote_command_locate">Konum</string>
+    <string name="remote_command_lock">Kilitle</string>
+    <string name="remote_command_wipe">Sil</string>
+    <string name="remote_control_master_dialog_title">Uzaktan kontrolü etkinleştir</string>
+    <string name="remote_unlock_emergency_button">Acil Durum Numarası Çağrı</string>
+    <string name="remote_unlock_emergency_dialer">Acil Durum Numarası</string>
+    <string name="remote_unlock_password_hint">IKARUS Parolası Gir</string>
+    <string name="remove_blacklist_contact">Karalisteden %1$s kaldırmak istediğinizden emin misiniz?</string>
+    <string name="restart_setup_warning_body">"Kurulum sihirbazını yeniden başlatmak istediğinizden emin misiniz? Aşağıdakiler sıfırlanacak: 
+USSD Koruma
+Hırsızlık Koruma
+IKARUS Parola
+Mesaj Karalistesi, bütün numaralar 
+URL Filtre"</string>
+    <string name="restart_setup_warning_body_without_dialer">"Kurulum sihirbazını yeniden başlatmak istediğinizden emin misiniz? Aşağıdakiler sıfırlanacak: 
+Hırsızlık Koruma
+IKARUS Parola
+Mesaj Karalistesi, bütün numaralar 
+URL Filtre"</string>
+    <string name="restart_setup_warning_body_without_telephony">"Kurulum sihirbazını yeniden başlatmak istediğinizden emin misiniz? Aşağıdaki sıfırlanacak: 
+URL Filtre"</string>
+    <string name="restart_setup_warning_header">Kurulum Sihirbazını yeniden başlat</string>
+    <string name="scan_frequency">Sıklık:</string>
+    <string name="scan_menu_entry_last_scan_info">Son tarama %1$s</string>
+    <string name="scan_menu_entry_never_scanned">Henüz hiçbir tarama yapılmadı</string>
+    <string name="scan_mode">Kapsam:</string>
+    <string name="send_system_log_description">Please explain your problem briefly for our support team:</string>
+    <string name="send_to_ikarus_anonymously">Anonim kal</string>
+    <string name="send_to_ikarus_explanation">"Virüslü dosyayı laboratuvarımızda ücretsiz olarak analiz edilmesi için IKARUS' a gönderebilirsiniz. İstek üzerine, sonuç, seçtiğiniz e-posta adresine gönderilecektir."</string>
+    <string name="send_to_ikarus_label">Analiz...</string>
+    <string name="send_to_ikarus_mail_label">Eposta adresiniz</string>
+    <string name="send_to_ikarus_mdm_explanation">Virüslü dosyayı yöneticiye ücretsiz olarak analiz edilmesi için gönderebilirsiniz.</string>
+    <string name="send_to_ikarus_ok_label">Gönder</string>
+    <string name="sending_activation_code">"Etkinleştirme kodu IKARUS'a gönderiliyor..."</string>
+    <string name="setup_buy_google_full_infoline">"Google Play' den zaman sınırı olmadan tam sürüm için lisans satın al"</string>
+    <string name="setup_buy_google_full_title">Google Play ile sürüm yükselt</string>
+    <string name="setup_buy_ikarus_demo_infoline">30 gün için tam özellikli seti test et</string>
+    <string name="setup_buy_ikarus_demo_title">Deneme Sürümü</string>
+    <string name="setup_buy_ikarus_full_infoline">Esnek lisans modelleri arasında seçim</string>
+    <string name="setup_buy_ikarus_full_title">Bir etkinleştirme kodunu kullanarak sürüm yükseltme</string>
+    <string name="show_password_in_cleartext">Parolayı göster</string>
+    <string name="sigqa_preference_text">Kalite güvence programına katıl</string>
+    <string name="sigqa_title">Anonim virüs istatistikleri</string>
+    <string name="sim_card_change_warning">Dikkat! Bir SIM kart değişikliğinden sonra cihazı kullanmaya devam edebilmek için burada seçtiğiniz parola gereklidir. Unutmayacağınızdan ya da kaybetmeyeceğinizden emin olun. Bu özelliği etkinleştirmek istiyormusunuz?</string>
+    <string name="simprotection_preference">SIM kart değiştirilirse cihazı kilitleme</string>
+    <string name="simprotection_title">SIM Kart Koruması</string>
+    <string name="smsanswer_close">Cevap metnini kapat</string>
+    <string name="smsblacklist_button">Karalisteyi Düzenle</string>
+    <string name="smsblacklist_button_hide">Karalisteyi Gizle</string>
+    <string name="smsblacklist_preference">Karalisteye göre mesajları reddet</string>
+    <string name="smsblacklist_title">Mesaj Karalistesi</string>
+    <string name="status_exception">Sistem güvenliği tespit edilemez!</string>
+    <string name="status_safe">Sisteminiz korunmaktadır</string>
+    <string name="system_status_app_observation_disabled">Uygulamalar izlenmez!</string>
+    <string name="system_status_infected">Sisteminiz enfekte olmuş!</string>
+    <string name="system_status_no_autoupdates">Otomatik veritabanı güncellemeleri yok!</string>
+    <string name="system_status_no_valid_license">Geçerli bir lisansınız yok!</string>
+    <string name="system_status_sdcard_observation_disabled">Dosyalar izlenemedi!</string>
+    <string name="system_status_ussd_disabled">USSD koruması devre dışı!</string>
+    <string name="thanks_for_1st_upgrading_continue">Devam</string>
+    <string name="thanks_for_1st_upgrading_demo_version">"Deneme sürümünüz etkinleştirildi ve %1$s e kadar çalışacak. 
+
+ Deneme sürümünün özelliklerini kullanabiliyor olmak için \"Devam \" butonuna tıklayınız."</string>
+    <string name="thanks_for_1st_upgrading_forever">"Tam sürümü almaya karar verdiğiniz için teşekkür ederiz. Bu lisansın zaman sınırlaması yoktur. 
+
+Tam sürüm özelliklerini kullanabilmek için, \"Devam\" butonuna tıklayınız."</string>
+    <string name="thanks_for_1st_upgrading_full_version">"Tam sürümünüz etkinleştirildi ve %1$s e kadar çalışacak. 
+
+ Deneme sürümünün özelliklerini kullanabiliyor olmak için \"Devam \" butonuna tıklayınız."</string>
+    <string name="thanks_for_nth_upgrading_continue">Tamam</string>
+    <string name="thanks_for_nth_upgrading_demo_version">"Yeni deneme sürümünüz etkinleştirildi ve %1$s e kadar çalışacak.
+
+IKARUS parolanız muhafaza edilmiştir."</string>
+    <string name="thanks_for_nth_upgrading_forever">"Tam sürümü almaya karar verdiğiniz için teşekkür ederiz. Bu lisansın zaman sınırlaması yoktur. 
+
+Tam sürüm özelliklerini kullanabilmek için, \"Devam\" butonuna tıklayınız."</string>
+    <string name="thanks_for_upgrading_title_demo">Deneme sürümünü almaya karar verdiğiniz için teşekkür ederiz!</string>
+    <string name="thanks_for_upgrading_title_full">Tam sürümü almaya karar verdiğiniz için teşekkür ederiz!</string>
+    <string name="time_format">HH:mm</string>
+    <string name="title_enter_password">Güvenlik engeli</string>
+    <string name="track_location_error">Cihazınız yeri şu anda bulunamıyor!</string>
+    <string name="uninstall_confirmation">Cihazınızdan %1$s kaldırmak istediğinizden emin misiniz?</string>
+    <string name="update_error">Güncelleme sırasında bir hata meydana geldi. Daha sonra tekrar deneyiniz.</string>
+    <string name="update_error_download_failed">Dosya indirme başarısız oldu. Ağ ve internet ayarlarını kontrol ediniz.</string>
+    <string name="update_error_reinstall">Cihazınızda bir güncelleme sorunu oluştu. Uygulamayı yeniden yüklemeniz önerilir.</string>
+    <string name="update_error_server">IKARUS web sitesinde bir güncelleme sorunu meydana geldi. Lütfen birkaç dakika içinde tekrar deneyin.</string>
+    <string name="update_frequency">Sıklık:</string>
+    <string name="update_progress_step_antispam_engine_diff">AntiSpam modülünü genişletme...</string>
+    <string name="update_progress_step_antispam_engine_full">AntiSPAM modulü indiriliyor...</string>
+    <string name="update_progress_step_avdb_diff">Veritabanı genişletme...</string>
+    <string name="update_progress_step_avdb_full">Veritabanı indiriliyor...</string>
+    <string name="update_progress_step_initial_server_check">IKARUS güncelleme sunucusu kontrol ediliyor...</string>
+    <string name="update_progress_step_scan_engine_diff">Virüs tarayıcı genişletme...</string>
+    <string name="update_progress_step_scan_engine_full">Virüs tarayıcı indiriliyor...</string>
+    <string name="upgradecode_button">Etkinleştirme kodunu gir / tara</string>
+    <string name="upgradecode_hint">Esnek lisans modelleri arasında seçim</string>
+    <string name="upgradecode_title">Bir etkinleştirme kodunu kullanarak sürüm yükseltme</string>
+    <string name="upload_file_error">Yükleme başarısız oldu: %1$s</string>
+    <string name="upload_file_started">Yükleme çalışıyor: %1$s</string>
+    <string name="upload_file_success">Yükleme başarılı: %1$s</string>
+    <string name="url_warning_button_block">Engellenmiş web sayfası</string>
+    <string name="url_warning_button_continue">Serbest bırakılmış web sayfası</string>
+    <string name="url_warning_google_attribution">&lt;a href=\"http://code.google.com/apis/safebrowsing/safebrowsing_faq.html#whyAdvisory\">Danışmanlık Google tarafından sağlanmaktadır&lt;/a></string>
+    <string name="url_warning_header">Erişim engellendi</string>
+    <string name="url_warning_safebrowsing_malware">Dikkat - Bu web sitesini ziyaret etmek bilgisayarınıza zarar verebilir. Bu sayfa sizin izniniz olmadan bilgisayarınıza zararlı olabilir, kötü amaçlı kod içeriyor gibi görünüyor. Virüs ve diğer kötü amaçlı kod ve bilgisayarınızı nasıl korumak gerektiği de dahil olmak üzere zararlı web içeriği hakkında daha fazla bilgiyi StopBadware.org adresinden edinebilirsiniz.</string>
+    <string name="url_warning_safebrowsing_phising">"Dikkat - Şüpheli phishing sayfa. Bu sayfa kişisel veya mali bilgi paylaşımında kullanıcıları kandırmak için tasarlanmış, başka bir web sitesinin sahtesi veya taklidi olabilir. Bu sayfada herhangi bir kişisel bilgi girilmesi, kimlik hırsızlığı veya diğer tacize neden olabilir. Gelen phishing hakkında www.antiphishing.org' dan daha fazla bilgi bulabilirsiniz."</string>
+    <string name="url_warning_text">"Dikkat! IKARUS mobile.security' nin tehlikeli gördüğü bir web sayfasını ziyaret ediyorsunuz!"</string>
+    <string name="urlfilter_preference">URL Filtreyi Etkinleştir</string>
+    <string name="urlfilter_preference_hint">Kötü amaçlı web sayfaları açıldığında uyarı gösterilir.</string>
+    <string name="urlfilter_title">URL Filtre</string>
+    <string name="using_google_license">Uygulamanın tam sürümünü Google Play ile satın alın​​.</string>
+    <string name="ussd_cancel">Engellendi</string>
+    <string name="ussd_clipboard">Panoya kopyala</string>
+    <string name="ussd_confirmation_checkbox">Riski kabul ediyorum.</string>
+    <string name="ussd_information_text">Bir USSD denetim kodu kabul edildi! USSD kontrol kodları cihazınızı kullanılamaz hale getirebilir. Nasıl devam etmek istersiniz? Şüphe durumunda, \"Blok\" seçmelisiniz.</string>
+    <string name="ussd_preference_body">USSD kontrol kodları blok</string>
+    <string name="ussd_preference_change_information_body">"Bu özelliği etkinleştirmek için IKARUS mobile.security' e ek haklar vermeniz gerekir. Sonraki diyalogda varsayılan olarak IKARUS' u ayarlayın."</string>
+    <string name="ussd_preference_change_other_app">"Yanlış varsayılan uygulaması: \"%1$s\".
+
+Sıfırlamak için: Tamam -> \"Hepsi\" -> \"%2$s\" -> \"Varsayılanlar temiz.\""</string>
+    <string name="ussd_preference_change_yes_no">IKARUS varsayılan olarak ayarlanmamış. Tekrar denemek istermisiniz?</string>
+    <string name="ussd_title">USSD Koruması</string>
+    <string name="vendor_address">"Blechturmgasse 11
+1050 Vienna
+Austria
+
+support@ikarus.at
+
+http://www.ikarus.at
+
+
+☎ Sales: +43 1 58995 - 0
+
+☎ Support: +43 1 58995 - 400"</string>
+    <string name="vendor_name">IKARUS Security Software GmbH</string>
+    <string name="where_activation_codes">Lütfen yakınınızdaki IKARUS iş ortağına bir eposta ile direk olarak IKARUS için siparişinizi gönderin:</string>
+    <string name="where_activation_codes_browse">sales@ikarus.at</string>
+    <string name="where_activation_codes_title">Etkinleştirme kodlarını nereden alabilirim?</string>
+    <string name="why_activation_codes">Farklı esnek lisans modelleri arasında seçim yapın.</string>
+    <string name="why_activation_codes_title">Neden etkinleştirme kodları?</string>
+</resources>

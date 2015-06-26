@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:baselineAligned="false" style="@style/IkarusRootLayoutInstall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="0.0px" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="5.0">
+        <RelativeLayout android:orientation="vertical" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/Title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/initial_update_title" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/initial_update_description" />
+                <com.ikarus.mobile.security.view.UpdateProgressBar android:id="@id/updateProgressBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/successTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/initial_update_succeeded" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/LITE_red" android:id="@id/errorTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/initial_update_error" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingBottom="60.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="11.0" android:layout_alignParentBottom="true">
+                <Button android:enabled="false" android:layout_gravity="left" android:id="@id/startButton" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/button_initial_update_cancel" android:layout_weight="5.0" />
+                <GridView android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <Button android:enabled="false" android:layout_gravity="right" android:id="@id/continueButton" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/button_initial_update_continue" android:layout_weight="5.0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

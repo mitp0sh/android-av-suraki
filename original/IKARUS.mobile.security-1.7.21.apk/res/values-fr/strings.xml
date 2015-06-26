@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IKARUS mobile.security</string>
+    <string name="app_name_launcher">IKARUS</string>
+    <string name="NativeLanguageName">français</string>
+    <string name="about_antispam_engine">AntiSPAM-Engine</string>
+    <string name="about_database">Base de données</string>
+    <string name="about_license_ikarus_lite">"Cette licence est valable jusqu'au %1$s.
+
+Le numéro de série est %2$s."</string>
+    <string name="about_license_ikarus_lite_basic">"Vous utilisez la version gratuite de l'application."</string>
+    <string name="about_license_ikarus_lite_basic_prominent_upgrade">Votre licence a expiré. Vous pouvez continuer à utiliser les fonctions de base de la version gratuite.</string>
+    <string name="about_license_ikarus_lite_date_format">dd MMMMMMMMMM yyyy</string>
+    <string name="about_license_ikarus_lite_trial">"Cette licence d'essai est valable jusqu'au %1$s.
+
+Le numéro de série est %2$s."</string>
+    <string name="about_scan_engine">Scan-Engine</string>
+    <string name="acquiring_trial">"La licence d'essai est en cours d'activation..."</string>
+    <string name="activation_qr_code_false_text">Le code QR scanné est erroné, veuillez recommencer.</string>
+    <string name="activation_qr_code_scan_button_text">Scanner le code QR</string>
+    <string name="activation_qr_code_scan_description">Scannez votre code QR avec la caméra.</string>
+    <string name="add_blacklist_contact">Ajouter</string>
+    <string name="alarm_preference">"Déclencher le signal d'alarme sur l'appareil"</string>
+    <string name="alarm_title">"Déclencher l'alarme"</string>
+    <string name="answersms_button">Éditer le texte de réponse</string>
+    <string name="answersms_hint">Saisir le texte pour une réponse automatique :</string>
+    <string name="answersms_preference">Envoyer la réponse automatique</string>
+    <string name="answersms_savebutton">Enregistrer</string>
+    <string name="answersms_title">SMS de réponse</string>
+    <string name="anti_virus_main_screen_button_scan_progress">Analyse antivirus...</string>
+    <string name="anti_virus_main_screen_button_update_progress">Actualisation...</string>
+    <string name="automatic_scans_enabled">Activer des analyses automatiques</string>
+    <string name="automatic_updates_enabled">Activer des mises à jour automatiques</string>
+    <string name="blacklist_add_hint">Saisir le nom et le numéro de téléphone</string>
+    <string name="blacklist_contact_no_phone_number">Aucun numéro de téléphone</string>
+    <string name="blacklist_default_sms_response">"Votre SMS n'a pas pu être envoyé. IKARUS mobile.security a rejeté votre message."</string>
+    <string name="blacklist_no_name">Numéro de téléphone inconnu</string>
+    <string name="boolean_preference_disable">Éteindre</string>
+    <string name="boolean_preference_enable">Allumer</string>
+    <string name="btn_accept_licence">Accepter</string>
+    <string name="btn_change_password">changer le mot de passe</string>
+    <string name="btn_next">Suivant</string>
+    <string name="button_app_only_scan">"Démarrer l'analyse des applications"</string>
+    <string name="button_cancel">Annuler</string>
+    <string name="button_full_scan">"Démarrer l'analyse intégrale"</string>
+    <string name="button_infections">Afficher et éditer les infections</string>
+    <string name="button_infections_hide">Masquer les infections</string>
+    <string name="button_initial_update_cancel">Annuler</string>
+    <string name="button_initial_update_continue">Suivant</string>
+    <string name="button_initial_update_start">Démarrer</string>
+    <string name="button_log">Envoyer le fichier journal du système</string>
+    <string name="button_no">Non</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_remove_from_quarantine">Effacer</string>
+    <string name="button_show_storage_dump">Show Settings</string>
+    <string name="button_update_now">Actualiser maintenant</string>
+    <string name="button_yes">Oui</string>
+    <string name="change_password_label_old">Ancien mot de passe IKARUS :</string>
+    <string name="checking_for_existing_license">Nous vérifions si vous possédez déjà une licence...</string>
+    <string name="create_password_enter">Veuillez sélectionner votre mot de passe personnel IKARUS pour les fonctions de protection antivol :</string>
+    <string name="create_password_title">Mot de passe IKARUS</string>
+    <string name="demoversion_button">"Activer la licence d'essai"</string>
+    <string name="demoversion_hint">Tester gratuitement, pendant 30 jours, la version complète</string>
+    <string name="demoversion_title">"Activer la version d'essai"</string>
+    <string name="disabled_telephony_not_available">"La fonction est désactivée étant donné que l'appareil ne possède pas de fonction téléphone."</string>
+    <string name="elecom_activation_description">Enter your activation code.</string>
+    <string name="elecom_activation_title">Product Activation</string>
+    <string name="elecom_button_help">Help</string>
+    <string name="elecom_get_activation_code_url">http://appstore.elecom.co.jp/ikarus/update_license.html</string>
+    <string name="elecom_get_activation_code_url_new_license">http://appstore.elecom.co.jp/ikarus/new_license.html</string>
+    <string name="elecom_get_activation_code_url_trial_license">http://appstore.elecom.co.jp/ikarus/new_license.html</string>
+    <string name="elecom_get_serial">No activation code?</string>
+    <string name="elecom_html_remote">&lt;html>&lt;head>&lt;meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\" />&lt;title>IKARUS mobile security&lt;/title>&lt;/head>&lt;body>&lt;div id=\"ikarus-mobile-security\">&lt;div>&lt;div>&lt;div>&lt;h2 style=\"color:#D43219\">Remote Control &amp; Theft Protection&lt;/h2>&lt;/div>&lt;/div>&lt;p>IKARUS mobile.security offers features to control your device even if it is lost or stolen:&lt;p/>Using simple text message commands sent from any other mobile phone, you can locate or lock your device, wipe out your personal data or raise an alarm. If you activate this feature, you may be asked to grant IKARUS mobile.security some additional system rights.&lt;/p>&lt;p>&lt;img alt=\"remote\" style=\"max-width:100%\" src=\"file:///android_asset/wizard/images/remote.png\" height=\"196\" width=\"336\" />&lt;/p>&lt;/div>&lt;/div>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_remote_summary">"&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">Remote Control Summary&lt;/h1>&lt;p>Your device is now theft-protected via remote control. You can send one of the following messages to the stolen device's phone number:&lt;/p>&lt;ul> &lt;li>&lt;strong>wipe:&lt;i>password&lt;/i>&lt;/strong> - The device will be reset to factory settings and all data on it (music, photos, videos and other personal files) will be deleted.&lt;/li> &lt;li>&lt;strong>lock:&lt;i>password&lt;/i>&lt;/strong> - The device will be blocked immediately.&lt;/li> &lt;li>&lt;strong>locate:&lt;i>password&lt;/i>&lt;/strong> - The device will be located immediately – you will receive the coordinates as a Google Maps link.&lt;/li> &lt;li>&lt;strong>alarm:&lt;i>password&lt;/i>&lt;/strong> - An alarm sound will be played.&lt;/li> &lt;/ul>&lt;p>If you lock your device, then you must enter the IKARUS password to unlock it.&lt;/p>&lt;/body>&lt;/html>"</string>
+    <string name="elecom_html_setup_complete">&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">Setup complete&lt;/h1>&lt;p>IKARUS mobile.security is ready to use. &lt;/p>&lt;b>Do you want to scan your device now?&lt;/b>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_sms_filter">&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">Text Message Blacklist&lt;/h1>&lt;p>The text message blacklist offers SPAM protection for your phone or tablet:&lt;p/> Text messages from blacklisted phone numbers are automatically deleted. Choose phone numbers from the address book or from recently received messages.&lt;/p>&lt;p>&lt;img style = \"max-width: 100%\" alt=\"\" height=\"165\" src=\"file:///android_asset/wizard/images/smsfiltering.png\" width=\"336\" />&lt;/p>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_ussd">&lt;html>&lt;bodybgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">USSD Protection&lt;/h1>&lt;p>IKARUS mobile.security offers USSD protection. This protection prevents the execution of USSD control codes that can harm your device or render it unusable. USSD codes look like phone numbers but instead execute code on your device. You may even unintentionally execute a dangerous USSD code by clicking on a seemingly harmless link on a web page in your browser.&lt;/p>&lt;p class=\"x-\">&lt;img alt=\"\" height=\"146\" src=\"file:///android_asset/wizard/images/ussd.png\" width=\"336\" />&lt;/p>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_web_filter">&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">URL Filter&lt;/h1>&lt;p>The URL filter protects you against dangerous web sites in the Internet.&lt;p/>The filter warns you when you try to access harmful sites that are known for phishing or hosting malware.&lt;/p>&lt;p>&lt;img alt=\"webfilter\" style=\"max-width:100%\" src=\"file:///android_asset/wizard/images/webfiltering.png\" height=\"190\" width=\"270\" />&lt;/p>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_wizard_and_setup_complete">&lt;html>&lt;bodybgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">All settings have been completed.&lt;/h1>&lt;p>IKARUS mobile.security is ready to use. &lt;/p>&lt;/p>&lt;/p>&lt;b>Do you want to scan your device now?&lt;/b>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_wizard_intro">&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">IKARUS mobile.security&lt;br/>Setup Wizard&lt;/h1>&lt;p>Welcome to IKARUS mobile.security! This setup wizard will guide you through the installation of the software and assist you to configure the following features: &lt;ul>&lt;li>USSD Protection&lt;/li>&lt;li>Theft Protection&lt;/li>&lt;li>Text Message Blacklist&lt;/li>&lt;li>URL Filter&lt;/li>&lt;li>Initial Scan&lt;/li>&lt;/ul>&lt;/p>&lt;b>Click \"Next\" to use the wizard!&lt;/b>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_wizard_intro_without_dialer">&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">IKARUS mobile.security&lt;br/>Setup Wizard&lt;/h1>&lt;p>Welcome to IKARUS mobile.security! This setup wizard will guide you through the installation of the software and assist you to configure the following features: &lt;ul>&lt;li>Theft Protection&lt;/li>&lt;li>Text Message Blacklist&lt;/li>&lt;li>URL Filter&lt;/li>&lt;li>Initial Scan&lt;/li>&lt;/ul>&lt;/p>&lt;b>Click \"Next\" to use the wizard!&lt;/b>&lt;/body>&lt;/html></string>
+    <string name="elecom_html_wizard_intro_without_telephony">&lt;html>&lt;body bgcolor=\"transparent\" style=\"background-color:transparent;\">&lt;h1 style=\"color:#D43219\">IKARUS mobile.security&lt;br/>Setup Wizard&lt;/h1>&lt;p>Welcome to IKARUS mobile.security! This setup wizard will guide you through the installation of the software and assist you to configure the following features: &lt;ul>&lt;li>URL Filter&lt;/li>&lt;li>Initial Scan&lt;/li>&lt;/ul>&lt;/p>&lt;b>Click \"Next\" to use the wizard!&lt;/b>&lt;/body>&lt;/html></string>
+    <string name="elecom_lifetime_license">License of the full version is valid.</string>
+    <string name="elecom_roam_google_play">Activer la licence</string>
+    <string name="elecom_thanks_for_1st_upgrading">Thank you for buying the full version.</string>
+    <string name="elecom_thanks_for_nth_upgrading">Thank you for buying the full version.</string>
+    <string name="elecom_wizard_blacklist_choose_contact">"Carnet d'adresses"</string>
+    <string name="elecom_wizard_blacklist_description">"Sélectionnez des numéros de téléphone de votre carnet d'adresses ou les derniers SMS reçus."</string>
+    <string name="elecom_wizard_blacklist_history">Derniers SMS reçus</string>
+    <string name="elecom_wizard_blacklist_history_empty">Aucun SMS</string>
+    <string name="elecom_wizard_navigation_back">Back</string>
+    <string name="elecom_wizard_navigation_next">Next</string>
+    <string name="elecom_wizard_navigation_skip">Skip</string>
+    <string name="elecom_wizard_remote_control_question">Do you want to enable remote control?</string>
+    <string name="elecom_wizard_sms_filter_question">Do you want to enable the message blacklist?</string>
+    <string name="elecom_wizard_ussd_question">Do you want to enable USSD protection?</string>
+    <string name="elecom_wizard_web_filter_question">Do you want to enable the URL filter?</string>
+    <string name="enum_prefs_12hours">Deux fois par jour</string>
+    <string name="enum_prefs_daily">Quotidien</string>
+    <string name="enum_prefs_twoDays">Tous les deux jours</string>
+    <string name="enum_prefs_weekly">Chaque semaine</string>
+    <string name="error_empty_password">veuillez insérez le mot de passe!</string>
+    <string name="error_enter_two_passwords">Veuillez encore insérez le mot de passe</string>
+    <string name="error_old_password_not_correct">"L’ancien mot de passe n'est pas valide."</string>
+    <string name="error_passwords_not_identical">Les mots de passe ne sont pas concordants.</string>
+    <string name="error_passwords_syntax_incorrect">"Le mot de passe n'est pas conforme aux exigences (6 à 15 caractères, aA\u0096zZ et 0\u00969, au moins un chiffre et une lettre)"</string>
+    <string name="google_in_app_purchase_screen_buy">Upgrade via Google Play</string>
+    <string name="google_in_app_purchase_screen_explanation">"Cliquez sur \" Upgrade via Google Play\" pour acheter la version complète sur Google Play.
+
+Une fois l'achat effectué, cliquez sur \"Continuer\"."</string>
+    <string name="google_in_app_purchase_screen_next">Continuer</string>
+    <string name="google_in_app_purchase_screen_title">Upgrade via Google Play</string>
+    <string name="heading_infections">Infections </string>
+    <string name="heading_scan">Analyse</string>
+    <string name="heading_update">Mise à jour</string>
+    <string name="home_screen_dependent_preference_change_message">"Des droits supplémentaires sont nécessaires. Veuillez activer, dans la prochaine boîte de dialogue, l'administrateur de la machine et dans la boîte suivante, configurez IKARUS par défaut."</string>
+    <string name="home_screen_dependent_preference_change_other_app">"Application par défaut erronée : \"%1$s\".
+
+Pour réinitialiser : OK -> \"Tous\" -> \"%2$s\" -> \"Effacer les valeurs par défaut\"."</string>
+    <string name="home_screen_dependent_preference_change_yes_no">"L'administrateur de machines n'est pas activé ou IKARUS n'est pas sélectionné par défaut. Est-ce que vous souhaitez réessayer ?"</string>
+    <string name="ignore_infection">Ignorer</string>
+    <string name="ikarus_activation_code_hint">"Code d'activation"</string>
+    <string name="ikarus_activation_code_send">Activer la licence</string>
+    <string name="ikarus_admin_description">"L'application nécessite ces droits pour la protection antivol."</string>
+    <string name="ikarus_get_activation_code_url">http://www.ikarus.at/en/products/</string>
+    <string name="ikarus_license_restored">Votre licence a été restaurée</string>
+    <string name="ikarus_trial">"La version d'essai vous permet d'utiliser, pendant 30 jours, toutes les fonctions de la version complète.
+
+Une fois la phase d'essai terminée, vous pouvez soit acheter une licence, soit utiliser les fonctions de base de la version gratuite."</string>
+    <string name="ikarus_trial_button">"Activer la licence d'essai"</string>
+    <string name="ikarus_trial_title">"Version d'essai"</string>
+    <string name="ikarus_wizard_blacklist_content">"La liste noire SMS protège votre smartphone ou votre tablette contre les SPAM. Les SMS provenant de numéros de téléphone de votre liste noire sont automatiquement effacés. Sélectionnez des numéros de téléphone de votre carnet d'adresses ou les derniers SMS reçus."</string>
+    <string name="ikarus_wizard_blacklist_header">Liste noire SMS</string>
+    <string name="ikarus_wizard_complete_content">"IKARUS mobile.security peut maintenant être utilisé.
+
+Est-ce que vous souhaitez immédiatement analyser votre appareil pour détecter d'éventuelles infections ?"</string>
+    <string name="ikarus_wizard_complete_header">Installation terminée</string>
+    <string name="ikarus_wizard_complete_with_settings_content">"La configuration est terminée. IKARUS mobile.security peut maintenant être utilisé.
+
+Est-ce que vous souhaitez immédiatement analyser votre appareil pour détecter d'éventuelles infections ?"</string>
+    <string name="ikarus_wizard_complete_with_settings_header">Installation terminée</string>
+    <string name="ikarus_wizard_instruction_content">"Nous vous remercions d'avoir choisi notre produit IKARUS mobile.security. Sur les pages suivantes, les fonctions les plus importantes de l'application vous seront expliquées, et vous pourrez immédiatement entreprendre les premières configurations.
+
+Si vous préférez effectuer les configurations ultérieurement, il vous suffit de cliquer sur \"Ignorer\". Pour démarrer la configuration, cliquez sur \"Continuer\"."</string>
+    <string name="ikarus_wizard_instruction_header">"IKARUS mobile.security - Assistant d'installation"</string>
+    <string name="ikarus_wizard_instruction_no_telephony_content">"Nous vous remercions d'avoir choisi notre produit IKARUS mobile.security. Sur les pages suivantes, les fonctions les plus importantes de l'application vous seront expliquées, et vous pourrez immédiatement entreprendre les premières configurations.
+
+Si vous préférez effectuer les configurations ultérieurement, il vous suffit de cliquer sur \"Ignorer\". Pour démarrer la configuration, cliquez sur \"Continuer\"."</string>
+    <string name="ikarus_wizard_instruction_no_telephony_header">"IKARUS mobile.security - Assistant d'installation"</string>
+    <string name="ikarus_wizard_instruction_without_dialer_content">"Nous vous remercions d'avoir choisi notre produit IKARUS mobile.security. Sur les pages suivantes, les fonctions les plus importantes de l'application vous seront expliquées, et vous pourrez immédiatement entreprendre les premières configurations.
+
+Si vous préférez effectuer les configurations ultérieurement, il vous suffit de cliquer sur \"Ignorer\". Pour démarrer la configuration, cliquez sur \"Continuer\"."</string>
+    <string name="ikarus_wizard_instruction_without_dialer_header">"IKARUS mobile.security - Assistant d'installation"</string>
+    <string name="ikarus_wizard_navigation_back">Retour</string>
+    <string name="ikarus_wizard_navigation_next">Continuer</string>
+    <string name="ikarus_wizard_navigation_skip">Ignorer</string>
+    <string name="ikarus_wizard_remote_control_content">"Est-ce que vous avez perdu votre smartphone ou votre tablette ou est-ce qu'ils vous ont été volés ? Pas de problème pour IKARUS mobile.security – il vous suffit d'envoyer un SMS à partir de n'importe quel autre appareil et vous pourrez localiser votre propre appareil, déclencher une alarme ou effacer toutes les données enregistrées sur votre appareil.
+
+Si vous activez la fonction, IKARUS mobile.security vous demandera, éventuellement, des droits supplémentaires."</string>
+    <string name="ikarus_wizard_remote_control_header">Contrôle à distance et protection antivol</string>
+    <string name="ikarus_wizard_remote_control_question">Activer le contrôle à distance ?</string>
+    <string name="ikarus_wizard_remote_control_summary_content">"&lt;html>&lt;body>&lt;p>Vous pourrez communiquer avec votre terminal au moyen d'un SMS. Les actions suivantes peuvent être exécutées via SMS:&lt;/p>&lt;ul>&lt;li>&lt;strong>Bloquer:&lt;em>Mot de passe&lt;/em>&lt;/strong> - L’appareil est immédiatement bloqué.&lt;/li>&lt;li>&lt;strong>Localiser:&lt;em>Mot de passe&lt;/em>&lt;/strong> - L’appareil est immédiatement localisé - les coordonnées vous sont envoyées via un lien Google-Map.&lt;/li>&lt;li>&lt;strong>Alarme:&lt;em>Mot de passe&lt;/em>&lt;/strong> - L’appareil est immédiatement bloqué, et un signal sonore d'alarme retentit.&lt;/li>&lt;li>&lt;strong>Effacer:&lt;em>Mot de passe&lt;/em>&lt;/strong> - L'appareil est réinitialisé sur ses paramètres configurés par défaut en usine et toutes les données sont effacées (musique, photos, vidéos et autres contenus personnels).&lt;/li>&lt;/ul>&lt;p>Votre appareil peut être débloqué au moyen du mot de passe.&lt;/p>&lt;p>Exemple : Votre mot de passe IKARUS est &lt;em>abcdef12&lt;/em> et vous souhaitez bloquer votre appareil. Envoyez un SMS à votre numéro de téléphone avec le contenu suivant : &lt;em>Bloquer:abcdef12&lt;/em>&lt;/p>&lt;/body>&lt;/html>"</string>
+    <string name="ikarus_wizard_remote_control_summary_header">Commandes SMS pour le contrôle à distance</string>
+    <string name="ikarus_wizard_sms_filter_question">Activer la liste noire SMS ?</string>
+    <string name="ikarus_wizard_ussd_content">"IKARUS mobile.security offre une protection contre les failles de sécurité Android en empêchant l'exécution des codes USSD, susceptibles d'endommager et de rendre inutilisable votre appareil. Les codes USSD s'apparentent à des numéros de téléphone, mais ils exécutent un code sur l'appareil. Vous risquez même, par inadvertance, d'exécuter un code USSD dangereux en cliquant sur un lien apparemment inoffensif sur un site web du navigateur. Les codes USSD sont également susceptibles d'endommager la carte SIM."</string>
+    <string name="ikarus_wizard_ussd_header">Protection USSD</string>
+    <string name="ikarus_wizard_ussd_question">Activer la protection USSD ?</string>
+    <string name="ikarus_wizard_web_filter_content">"Le filtre URL vous protège contre des sites web dont le contenu est dangereux. Lorsque vous tentez d'ouvrir un site web connu pour effectuer des tentatives d'hameçonnage ou pour abriter des logiciels dangereux, un message d'avertissement apparaît."</string>
+    <string name="ikarus_wizard_web_filter_header">"Filtre d'URL"</string>
+    <string name="ikarus_wizard_web_filter_question">"Activer le filtre d'URL ?"</string>
+    <string name="inappbuy_button">Via Google Play</string>
+    <string name="inappbuy_hint">Activer une licence illimitée dans le temps via Google Play</string>
+    <string name="inappbuy_title">Via Google Play</string>
+    <string name="infection_count">%1$s infections détectées !</string>
+    <string name="infection_count_1">1 infection détectée !</string>
+    <string name="infection_found_go_to_app">Ouvrir IKARUS mobile.security</string>
+    <string name="infection_list_label_date">Date :</string>
+    <string name="infection_list_label_signature">ID:</string>
+    <string name="infection_list_label_virus">Virus:</string>
+    <string name="infection_when_found_format">dd MMMMMMMMMM yyyy HH:mm</string>
+    <string name="information_answersms_body">"Informer l'expéditeur du blocage de son message par le biais d'un SMS de réponse automatique. Vous pouvez librement choisir le texte."</string>
+    <string name="information_answersms_header">Réponse SMS automatique</string>
+    <string name="information_demoversion_body">"La version d'essai vous permet d'essayer, pendant 30 jours, gratuitement et sans engagement, l'étendue complète des fonctions."</string>
+    <string name="information_demoversion_header">"Version d'essai"</string>
+    <string name="information_inappbuy_body">En procédant à un achat via Google Play, vous pourrez bénéficier de la version intégrale, illimitée dans le temps, avec toutes les fonctions de sécurité supplémentaires.</string>
+    <string name="information_inappbuy_header">Google Play</string>
+    <string name="information_infection_body">"Cette liste vous permet de voir quels fichiers, sur votre appareil, ont été infectés par un virus. Vous pouvez effacer ces fichiers ou les envoyer au laboratoire d'IKARUS pour qu'ils soient analysés plus précisément."</string>
+    <string name="information_infection_header">Infections sur votre appareil</string>
+    <string name="information_observation_apps_body">"Les applications nouvelles ou mises à jour sont observées en arrière-plan. Lorsque vous téléchargez ou mettez à jour une application, une analyse se lance automatiquement pour contrôler l'application quant à la présence d'éventuels virus."</string>
+    <string name="information_observation_apps_header">"Surveillance d'installations d'applications"</string>
+    <string name="information_observation_sdcard_body">"Surveille, en arrière-plan, les accès aux fichiers. Les fichiers, sur les cartes SD ou dans la mémoire interne, par ex. les téléchargements d'Internet, sont automatiquement contrôlés quant à la présence de virus."</string>
+    <string name="information_observation_sdcard_header">Surveillance des fichiers</string>
+    <string name="information_password_body">"Vous avez besoin du mot de passe pour la protection antivol. Ceci vous permet de commander à distance votre appareil via SMS. Si vous avez bloqué l'appareil, vous devrez le débloquer au moyen du mot de passe."</string>
+    <string name="information_password_header">Mot de passe pour la protection antivol</string>
+    <string name="information_remotealarm_body">Envoyer un SMS avec le libellé suivant \"Alarme:<i>Mot de passe</i>"\" au numéro de téléphone de votre appareil volé. Un signal sonore d'alarme retentit."</string>
+    <string name="information_remotealarm_header">"Déclencher l'alarme"</string>
+    <string name="information_remotelocate_body">Envoyer un SMS avec le libellé suivant \"Localiser:<i>Mot de passe</i>"\" au numéro de téléphone de votre appareil volé. L'appareil est immédiatement localisé - les coordonnées vous sont envoyées via un lien Google-Map."</string>
+    <string name="information_remotelocate_header">"Localiser l'appareil"</string>
+    <string name="information_remotelock_body">Envoyer un SMS avec le libellé suivant \"Bloquer:<i>Mot de passe</i>\" au numéro de téléphone de votre appareil volé. L’appareil est immédiatement bloqué.</string>
+    <string name="information_remotelock_header">"Bloquer l'appareil"</string>
+    <string name="information_remotewipe_body">Envoyer un SMS avec le libellé suivant \"Effacer:<i>Mot de passe</i>"\" au numéro de téléphone de votre appareil volé. L'appareil est réinitialisé sur ses paramètres configurés par défaut en usine et toutes les données sont effacées (musique, photos, vidéos et autres contenus personnels)."</string>
+    <string name="information_remotewipe_header">"Réinitialiser l'appareil"</string>
+    <string name="information_scan_body">"Lors d'une analyse des applications, seules les applications installées sont scannées, alors que lors d'une analyse intégrale, la carte mémoire de l'appareil est elle aussi analysée. Vous pouvez également paramétrer des analyses automatiques à intervalles réguliers."</string>
+    <string name="information_scan_body_without_scheduling">"Lors d'une analyse des applications, seules les applications installées sont scannées, alors que lors d'une analyse intégrale, la carte mémoire de l'appareil est elle aussi analysée."</string>
+    <string name="information_scan_header">Analyse pour détecter les virus</string>
+    <string name="information_sigqa_body">"La statistique anonyme des virus sert à la gestion-qualité d'IKARUS: le programme transmet des données rendues anonymes permettant d'effectuer des détections de virus dans le laboratoire IKARUS."</string>
+    <string name="information_sigqa_header">"Assurance-qualité assortie d'une statistique sur les virus"</string>
+    <string name="information_simprotection_body">"Si la carte SMS est retirée ou échangée, l'appareil est immédiatement bloqué et ne peut être débloqué que moyennant la saisie du mot de passe."</string>
+    <string name="information_simprotection_header">Détecter un changement de carte SIM</string>
+    <string name="information_smsblacklist_body">"Les SMS provenant de numéros de téléphone de votre liste noire sont automatiquement effacés. Sélectionnez des numéros de téléphone de votre carnet d'adresses ou les derniers SMS reçus."</string>
+    <string name="information_smsblacklist_header">Effacer des SMS non désirés</string>
+    <string name="information_update_body">Notre détection des virus est constamment actualisée par rapport aux menaces actuelles et elle est actualisée par rapport aux définitions de virus les plus récentes. Les mises à jour régulières - manuelles ou automatiques - augmentent par conséquent votre sécurité.</string>
+    <string name="information_update_header">Mise à jour de la base de données</string>
+    <string name="information_upgradecode_body">"Les codes d'activation vous permettent de choisir parmi des durées de licence flexibles pour effectuer la mise à niveau pour la version pleine."</string>
+    <string name="information_upgradecode_header">"Codes d'activation"</string>
+    <string name="information_urlfilter_body">"Le filtre URL vous avertit lorsque vous accédez à des sites dangereux sur Internet, connus pour effectuer des tentatives d'hameçonnage ou pour abriter des logiciels malveillants."</string>
+    <string name="information_urlfilter_header">"Filtre d'URL pour sites web"</string>
+    <string name="information_ussd_body">"La protection USSD empêche l'exécution de codes USSD qui endommagent ou rendent inutilisables votre appareil. Les codes USSD s'apparentent à des numéros de téléphone, mais ils exécutent, en réalité, un code sur l'appareil."</string>
+    <string name="information_ussd_header">Codes USSD</string>
+    <string name="initial_update_description">"IKARUS mobile.security télécharge les versions actuelles d'antivirus, d'AntiSPAM et de la base de données. Ces composants sont régulièrement mis à jour par nos experts en matière de logiciels malveillants, au sein de notre laboratoire IKARUS, afin de garantir votre sécurité."</string>
+    <string name="initial_update_error">Une erreur est survenue. Veuillez réessayer ultérieurement.</string>
+    <string name="initial_update_succeeded">Scanner, AntiSPAM et base de données téléchargés avec succès.</string>
+    <string name="initial_update_title">Actualisation</string>
+    <string name="label_automatic_scans">Planifier des analyses automatiques</string>
+    <string name="label_automatic_updates">Planifier des mises à jour automatiques</string>
+    <string name="label_confirm_password">Confirmer le nouveau mot de passe</string>
+    <string name="label_password">nouveau mot de passe:</string>
+    <string name="lang_desc_chs">Chinese, simplified</string>
+    <string name="lang_desc_cs">Czech</string>
+    <string name="lang_desc_de">Allmand</string>
+    <string name="lang_desc_en">Anglais</string>
+    <string name="lang_desc_fr">Français</string>
+    <string name="lang_desc_hr">Croatian</string>
+    <string name="lang_desc_it">Italien</string>
+    <string name="lang_desc_ja">Japanese</string>
+    <string name="lang_desc_ru">Russian</string>
+    <string name="lang_desc_sp">Spanish</string>
+    <string name="lang_desc_tr">Turkish</string>
+    <string name="last_app_scan">Dernière analyse des applications le %1$s à %2$s</string>
+    <string name="last_full_scan">Dernière analyse intégrale le %1$s à %2$s</string>
+    <string name="license_choice_screen_lite_description">"Acheter la version pleine avec protection antivol, liste noire SMS et filtre d'URL"</string>
+    <string name="license_choice_screen_lite_skip">Ignorer cette étape et utiliser la version gratuite</string>
+    <string name="license_choice_screen_lite_title">Mise à niveau version pleine ?</string>
+    <string name="license_days_left">Jours restants: %1$d</string>
+    <string name="license_expires_soon">Votre licence expire bientôt!</string>
+    <string name="licensing_error_activation_code_server_connection">"Le serveur IKARUS n'a pas pu être joint ou n'a pas renvoyé de réponse correcte. Veuillez réessayer ultérieurement."</string>
+    <string name="licensing_error_activation_code_server_wrong_code">"Le code d'activation saisi est invalide. Veuillez vérifier le code."</string>
+    <string name="licensing_error_google_billing_not_supported">Vous ne pouvez pas enregistrer la licence via Google.</string>
+    <string name="licensing_error_google_cannot_connect">"La connexion au serveur Google n'a pas pu être établie !"</string>
+    <string name="licensing_error_internal_error">Une erreur de licence interne est survenue. Veuillez réessayer ultérieurement.</string>
+    <string name="licensing_error_license_expired">Votre licence a expiré.</string>
+    <string name="licensing_error_no_email">Vous ne pouvez pas acquérir de licence sans adresse courriel valide !</string>
+    <string name="licensing_error_unknown">Une erreur inconnue est survenue. Veuillez réessayer ultérieurement.</string>
+    <string name="lite_title_free">IKARUS mobile.security - Version gratuite</string>
+    <string name="lite_title_full">IKARUS mobile.security - Version pleine</string>
+    <string name="lite_title_no_access">IKARUS mobile.security - Pas de licence</string>
+    <string name="lite_title_trial">"IKARUS mobile.security - Version d'essai"</string>
+    <string name="logging_error">Une erreur est survenue lors de l\u0092envoi du fichier journal. Veuillez réessayer.</string>
+    <string name="main_menu_anti_virus">AntiVirus</string>
+    <string name="main_menu_blacklist_info_line_2_more_blocked">%1$d SMS bloqués</string>
+    <string name="main_menu_blacklist_info_line_2_one_blocked">1 SMS bloqué</string>
+    <string name="main_menu_blacklist_info_line_2_zero_blocked">Aucun SMS bloqué</string>
+    <string name="main_menu_buy_info_line">Acheter la version pleine de ce produit</string>
+    <string name="main_menu_info">Info</string>
+    <string name="main_menu_info_extra_text">Aide et informations concernant IKARUS mobile.security</string>
+    <string name="main_menu_observation">Surveillance</string>
+    <string name="main_menu_remotecontrol_activated">Télécommande activée</string>
+    <string name="main_menu_remotecontrol_deactivated">Télécommande non activée</string>
+    <string name="main_menu_remotecontrol_partially_active">Télécommande activée partiellement</string>
+    <string name="main_menu_sms_filter">Liste noire SMS</string>
+    <string name="main_menu_sms_filter_disabled">Liste noire SMS désactivée</string>
+    <string name="main_menu_sms_filter_enabled">Liste noire SMS activée</string>
+    <string name="main_menu_theft_protection">Protection antivol</string>
+    <string name="main_menu_tutorial_wizard">"Redémarrer l'assistant de configuration"</string>
+    <string name="main_menu_uninstall">Désinstaller</string>
+    <string name="main_menu_uninstall_extra_text">Désinstaller cette application </string>
+    <string name="main_menu_update_never_updated">Aucune mise à jour réalisée</string>
+    <string name="main_menu_update_updating_now">Actualisation...</string>
+    <string name="main_menu_upgrade">Mise à niveau</string>
+    <string name="main_menu_virus_list_no_viruses">Aucune infection</string>
+    <string name="main_menu_web_filter">"Filtre d'URL"</string>
+    <string name="main_menu_wizard">Assistant de configuration</string>
+    <string name="main_screen_anti_virus_line2">Dernière mise à jour le %1$s à %2$s.</string>
+    <string name="main_screen_buy_infoline_basic">"Acheter la version pleine avec protection antivol, liste noire SMS et filtre d'URL"</string>
+    <string name="main_screen_buy_infoline_expired">Votre licence a expiré. Acheter maintenant la version pleine.</string>
+    <string name="main_screen_buy_infoline_full">Votre licence expire le %1$s. La prolonger maintenant !</string>
+    <string name="main_screen_buy_infoline_trial">"Votre licence d'essai expire le %1$s. Acheter maintenant la version pleine."</string>
+    <string name="main_screen_observation_line1_disabled">Surveillance incomplète</string>
+    <string name="main_screen_observation_line1_enabled">Les applications, cartes mémoire et téléchargements sont surveillés</string>
+    <string name="main_screen_observation_line2_disabled">Protection USSD désactivée</string>
+    <string name="main_screen_observation_line2_enabled">Protection USSD activée</string>
+    <string name="main_screen_theft_protection_sim_disabled">Protection de carte SIM désactivée</string>
+    <string name="main_screen_theft_protection_sim_enabled">Protection de carte SIM activée</string>
+    <string name="main_screen_web_filter_line1_disabled">"Filtre d'URL désactivé"</string>
+    <string name="main_screen_web_filter_line1_enabled">"Filtre d'URL activé"</string>
+    <string name="main_screen_web_filter_line2_disabled">Les avertissements ne sont pas affichés</string>
+    <string name="main_screen_web_filter_line2_enabled">Les avertissements sont affichés</string>
+    <string name="mdm_version">MDM Version</string>
+    <string name="menu_delete">Effacer toutes les infections</string>
+    <string name="menu_license">Accord de licence</string>
+    <string name="message_enter_password">Veuillez saisir un mot de passe IKARUS :</string>
+    <string name="next_automatic_app_scan">Prochaine analyse automatique des applications le %1$s</string>
+    <string name="next_automatic_full_scan">Prochaine analyse intégrale automatique le %1$s</string>
+    <string name="next_automatic_scan_none">"Pas d'analyse automatique planifiée"</string>
+    <string name="next_automatic_update">Prochaine mise à jour automatique le %1$s</string>
+    <string name="next_automatic_update_none">Pas de mise à jour automatique planifiée</string>
+    <string name="no_automatic_scans_because_no_license">"Pas d'analyses automatiques : pas de licence valable !"</string>
+    <string name="notification_apk_update_available_body">Une nouvelle version de IKARUS mobile.security est disponible.</string>
+    <string name="notification_apk_update_available_header">Nouvelle version IKARUS</string>
+    <string name="notification_scan_message">Détection de virus en cours</string>
+    <string name="notification_scan_ticker">Analyse antivirus</string>
+    <string name="notification_update_message">"La base de données des virus est en cours d'actualisation"</string>
+    <string name="notification_update_reminder_message">Veuillez actualisez la base de données virales</string>
+    <string name="notification_update_reminder_title">Base de données obsolète</string>
+    <string name="notification_update_ticker">Actualisation de la base de données</string>
+    <string name="notification_upload_file">"Envoyer le signalement de l'infection à IKARUS"</string>
+    <string name="notification_upload_file_error">"Impossible d'envoyer le fichier infecté !"</string>
+    <string name="notification_upload_file_success">Fichier infecté envoyé avec succès</string>
+    <string name="notification_virus_found_ticker_title">Virus détecté !</string>
+    <string name="observate_apps_preference">Surveiller les applications</string>
+    <string name="observate_apps_title">Surveillance de toutes les applications</string>
+    <string name="observate_sdcard_preference">Surveiller les fichiers</string>
+    <string name="observate_sdcard_title">Surveillance des fichiers</string>
+    <string name="observation_screen_warning">IKARUS ne peut pas vous protéger si cette option est désactivée !</string>
+    <string name="open_browser_message">Open Browser?</string>
+    <string name="other_app_clear_defaults">"Application par défaut erronée : \"%1$s\".
+
+Pour réinitialiser : OK -> \"%2$s\" -> \"%3$s\" -> \"%4$s\""</string>
+    <string name="password_needed">"Vous avez besoin d'un mot de passe IKARUS pour utiliser cette fonction."</string>
+    <string name="password_needed_button">Créer un mot de passe IKARUS</string>
+    <string name="password_requirements">6 à 15 caractères, aA–zZ et 0–9, au moins un chiffre et une lettre.</string>
+    <string name="password_successfully_changed">Votre mot de passe_IKARUS a été modifié.</string>
+    <string name="password_title">Mot de passe IKARUS</string>
+    <string name="prefs_blacklist_sms_cost_warning">Les SMS de réponses automatiques seront prises en compte selon un barème.</string>
+    <string name="prefs_radmin_alarm_failed">"L'alarme à distance n’est pas activée."</string>
+    <string name="prefs_radmin_alarm_raised">"L'alarme était activée."</string>
+    <string name="prefs_radmin_lock_bruteforcewarning">"Quelqu'un tente de désactiver le blocage demandé de votre numéro de téléphone."</string>
+    <string name="prefs_radmin_lock_is_performed">Votre appareil a été bloqué.</string>
+    <string name="prefs_radmin_lock_not_activated">Le blocage à distance n’est pas activé.</string>
+    <string name="prefs_radmin_lock_released_sms">Votre suspension ou alarme a été désactivée.</string>
+    <string name="prefs_radmin_lock_summary">Activer le blocage à distance</string>
+    <string name="prefs_radmin_lock_title">"Bloquer tout accès non autorisé à l'appareil"</string>
+    <string name="prefs_radmin_track_located_sms">Veuillez trouver votre dispositif ici: %1$s</string>
+    <string name="prefs_radmin_track_not_activated">La détection lointaine est activée.</string>
+    <string name="prefs_radmin_track_summary">Activer la localisation à distance</string>
+    <string name="prefs_radmin_track_title">"Localiser l'appareil à distance"</string>
+    <string name="prefs_radmin_wipe_summary">Activer la suppression à distance</string>
+    <string name="prefs_radmin_wipe_title">Réinitialiser les paramètres par défaut configurés en usine et effacer les données</string>
+    <string name="prefs_radmin_wipeout_is_performed">La suppression à distance est en cours d\u0092exécution.</string>
+    <string name="prefs_radmin_wipeout_not_activated">"L'effacement à distance n'est pas activé."</string>
+    <string name="prefs_remote_location_box_message">Actuellement, toutes les sources de localisation ne sont pas activées. Pour obtenir la géolocalisation la plus rapide et la plus précise, connectez le réseau WLAN et activez le GPS et les réseaux sans fil dans les paramètres de localisation.</string>
+    <string name="prefs_remote_location_box_title">Définition de la position</string>
+    <string name="prefs_remote_lock_box_title">Activer la suspension à distance</string>
+    <string name="prefs_remote_lock_box_title_alarm">"Activer l'alarme à distance"</string>
+    <string name="prefs_update_only_wifi">Actualiser uniquement via WLAN</string>
+    <string name="progress_bar_infections">Infections:</string>
+    <string name="progress_bar_scan_total">Vérifié:</string>
+    <string name="progress_bar_scanning">Scanner…</string>
+    <string name="radio_button_autoscan_full">Analyse intégrale</string>
+    <string name="radio_button_autoscan_quick">Analyse des applications</string>
+    <string name="remote_command_alarm">Alarme</string>
+    <string name="remote_command_locate">Localiser</string>
+    <string name="remote_command_lock">Bloquer</string>
+    <string name="remote_command_wipe">Effacer</string>
+    <string name="remote_control_master_dialog_title">Activer le contrôle à distance </string>
+    <string name="remote_unlock_emergency_button">"Sélectionner l'appel d'urgence"</string>
+    <string name="remote_unlock_emergency_dialer">Appel de secours</string>
+    <string name="remote_unlock_password_hint">Saisir le mot de passe IKARUS</string>
+    <string name="remove_blacklist_contact">"Vous êtes sûr d'effacer %1$s de la liste noire?"</string>
+    <string name="restart_setup_warning_body">"Êtes-vous sûr de vouloir redémarrer l'assistant de configuration ? Les paramètres suivants sont réinitialisés:
+Protection USSD
+Protection antivol
+Mot de passe IKARUS
+Liste noire SMS avec tous les numéros
+Filtre URL"</string>
+    <string name="restart_setup_warning_body_without_dialer">"Êtes-vous sûr de vouloir redémarrer l'assistant de configuration ? Les paramètres suivants sont réinitialisés:
+Protection antivol
+Mot de passe IKARUS
+Liste noire SMS avec tous les numéros
+Filtre URL"</string>
+    <string name="restart_setup_warning_body_without_telephony">"Êtes-vous sûr de vouloir redémarrer l'assistant de configuration ? Les paramètres suivants sont réinitialisés:
+Filtre URL"</string>
+    <string name="restart_setup_warning_header">"Redémarrer l'assistant de configuration"</string>
+    <string name="scan_frequency">Fréquence :</string>
+    <string name="scan_menu_entry_last_scan_info">Dernière analyse %1$s</string>
+    <string name="scan_menu_entry_never_scanned">Aucun scanner réalisé</string>
+    <string name="scan_mode">Étendue :</string>
+    <string name="send_system_log_description">Veuillez expliquer brièvement le problème à notre équipe de support:</string>
+    <string name="send_to_ikarus_anonymously">Rester anonyme</string>
+    <string name="send_to_ikarus_explanation">"Vous pouvez envoyer le fichier infecté à IKARUS pour le faire analyser gratuitement. Sur demande nous transmettons le résultat à l'adresse électronique choisie."</string>
+    <string name="send_to_ikarus_label">Analyse…</string>
+    <string name="send_to_ikarus_mail_label">Votre adresse électronique:</string>
+    <string name="send_to_ikarus_mdm_explanation">"Vous pouvez envoyer le fichier infecté à l'administrateur pour le faire analyser gratuitement."</string>
+    <string name="send_to_ikarus_ok_label">Envoyer</string>
+    <string name="sending_activation_code">"Le code d'activation est envoyé à IKARUS ..."</string>
+    <string name="setup_buy_google_full_infoline">Acheter une licence limitée dans le temps pour la version pleine sur Google Play</string>
+    <string name="setup_buy_google_full_title">"Procéder à l'upgrade via Google Play"</string>
+    <string name="setup_buy_ikarus_demo_infoline">Tester la version pleine pendant 30 jours</string>
+    <string name="setup_buy_ikarus_demo_title">"Version d'essai"</string>
+    <string name="setup_buy_ikarus_full_infoline">Sélectionner des modèles de licence flexibles</string>
+    <string name="setup_buy_ikarus_full_title">"Upgrade via un code d'activation"</string>
+    <string name="show_password_in_cleartext">Afficher le mot de passe</string>
+    <string name="sigqa_preference_text">"Participer au programme d'assurance-qualité"</string>
+    <string name="sigqa_title">Statistique anonyme de virus</string>
+    <string name="sim_card_change_warning">"Attention ! Afin de pouvoir continuer à utiliser votre appareil après un changement de carte SIM, vous avez besoin de votre mot de passe choisi ici ! Veillez à ne pas l'oublier ou le perdre ! Souhaitez-vous activer la fonction ?"</string>
+    <string name="simprotection_preference">"Bloquer l'appareil lors d'un changement de carte SIM"</string>
+    <string name="simprotection_title">Protection de la carte SIM</string>
+    <string name="smsanswer_close">Fermer le texte de réponse</string>
+    <string name="smsblacklist_button">Éditer la liste noire</string>
+    <string name="smsblacklist_button_hide">Masquer la liste noire</string>
+    <string name="smsblacklist_preference">Refuser les messages conformément aux configurations de la liste noire</string>
+    <string name="smsblacklist_title">Liste noire SMS</string>
+    <string name="status_exception">Nous ne pouvons pas rétablir la sécurité du système!</string>
+    <string name="status_safe">Votre système est protégé</string>
+    <string name="system_status_app_observation_disabled">Applications non surveillées !</string>
+    <string name="system_status_infected">Votre système est infecté!</string>
+    <string name="system_status_no_autoupdates">"Pas d'actualisation automatique de la base de données !"</string>
+    <string name="system_status_no_valid_license">"Vous n'avez pas une licence valide!"</string>
+    <string name="system_status_sdcard_observation_disabled">Les fichiers ne sont pas surveillés !</string>
+    <string name="system_status_ussd_disabled">Protection USSD désactivée !</string>
+    <string name="thanks_for_1st_upgrading_continue">Continuer</string>
+    <string name="thanks_for_1st_upgrading_demo_version">"Votre version d'essai a été activée et fonctionnera jusqu'au %1$s.
+
+Pour utiliser les fonctions de la version d'essai, cliquez sur \"Continuer\"."</string>
+    <string name="thanks_for_1st_upgrading_forever">"Nous vous remercions d'avoir porté votre choix sur la version complète ! La validité de cette licence n'est pas limitée dans le temps.
+
+Pour utiliser les fonctions de la version pleine, cliquez sur \"Continuer\"."</string>
+    <string name="thanks_for_1st_upgrading_full_version">"Votre version pleine a été activée et fonctionnera jusqu'au %1$s.
+
+Pour utiliser les fonctions de la version pleine, cliquez sur \"Continuer\"."</string>
+    <string name="thanks_for_nth_upgrading_continue">OK</string>
+    <string name="thanks_for_nth_upgrading_demo_version">"Votre nouvelle version d'essai a été activée et expire le %1$s.
+
+Votre mot de passe IKARUS a été conservé."</string>
+    <string name="thanks_for_nth_upgrading_forever">"Nous vous remercions d'avoir choisi la version complète ! La validité de cette licence n'est pas limitée dans le temps.
+
+Pour utiliser les fonctions de la version pleine, cliquez sur \"Continuer\"."</string>
+    <string name="thanks_for_upgrading_title_demo">"Nous vous remercions d'avoir choisi la version d'essai !"</string>
+    <string name="thanks_for_upgrading_title_full">"Nous vous remercions d'avoir choisi la version complète !"</string>
+    <string name="time_format">HH:mm</string>
+    <string name="title_enter_password">Consultation de sécurité</string>
+    <string name="track_location_error">On ne peut pas localiser votre dispositif actuellement!</string>
+    <string name="uninstall_confirmation">"Vous êtes sûr d'effacer %1$s de votre dispositif?"</string>
+    <string name="update_error">"Une erreur est survenue lors de l'actualisation. Veuillez réessayer ultérieurement."</string>
+    <string name="update_error_download_failed">"Échec du téléchargement de fichier. Contrôlez vos paramètres de réseau et d'Internet."</string>
+    <string name="update_error_reinstall">"Un problème d'actualisation est survenu sur votre appareil. Nous vous recommandons de réinstaller l'application."</string>
+    <string name="update_error_server">"Un problème d'actualisation est survenu sur le serveur IKARUS. Veuillez réessayer dans quelques minutes."</string>
+    <string name="update_frequency">Fréquence :</string>
+    <string name="update_progress_step_antispam_engine_diff">Le module AntiSPAM est étendu ...</string>
+    <string name="update_progress_step_antispam_engine_full">Le module AntiSPAM est téléchargé...</string>
+    <string name="update_progress_step_avdb_diff">La base de données est étendue...</string>
+    <string name="update_progress_step_avdb_full">La base de données est téléchargée...</string>
+    <string name="update_progress_step_initial_server_check">"Le serveur de mise à jour d'IKARUS est contrôlé ..."</string>
+    <string name="update_progress_step_scan_engine_diff">"L'analyse antivirus est étendue..."</string>
+    <string name="update_progress_step_scan_engine_full">"L'analyse antivirus est téléchargée..."</string>
+    <string name="upgradecode_button">"Saisir/Sélectionner le code d'activation"</string>
+    <string name="upgradecode_hint">Sélectionner des modèles de licence flexibles</string>
+    <string name="upgradecode_title">"Upgrade via un code d'activation"</string>
+    <string name="upload_file_error">Echec du téléchargement: %1$s</string>
+    <string name="upload_file_started">Téléchargeant: %1$s</string>
+    <string name="upload_file_success">Téléchargement réussi: %1$s</string>
+    <string name="url_warning_button_block">Bloquer le site web</string>
+    <string name="url_warning_button_continue">Valider le site web</string>
+    <string name="url_warning_google_attribution">&lt;a href=\"http://code.google.com/apis/safebrowsing/safebrowsing_faq.html#whyAdvisory\">Advisory provided by Google&lt;/a></string>
+    <string name="url_warning_header">Accès bloqué</string>
+    <string name="url_warning_safebrowsing_malware">Warning - Visiting this web site may harm your computer. This page appears to contain malicious code that could be downloaded to your computer without your consent. You can learn more about harmful web content including viruses and other malicious code and how to protect your computer at StopBadware.org.</string>
+    <string name="url_warning_safebrowsing_phising">Warning - Suspected phishing page. This page may be a forgery or imitation of another website, designed to trick users into sharing personal or financial information. Entering any personal information on this page may result in identity theft or other abuse. You can find out more about phishing from www.antiphishing.org.</string>
+    <string name="url_warning_text">Attention ! Vous interrogez un site web que IKARUS mobile.security considère comme dangereux !</string>
+    <string name="urlfilter_preference">"Activer le filtre d'URL"</string>
+    <string name="urlfilter_preference_hint">"Les avertissements sont affichés lors de l'accès à des sites web dangereux."</string>
+    <string name="urlfilter_title">"Filtre d'URL"</string>
+    <string name="using_google_license">"La version complète de l'application a été achetée via Google Play."</string>
+    <string name="ussd_cancel">Bloquer</string>
+    <string name="ussd_clipboard">Copier dans la mémoire tampon</string>
+    <string name="ussd_confirmation_checkbox">"J'ai conscience du risque et je l'accepte."</string>
+    <string name="ussd_information_text">Un code USSD a été détecté ! Les codes USSD sont susceptibles de rendre votre appareil inutilisable. Souhaitez-vous poursuivre ? En cas de doute, sélectionner \"Bloquer\".</string>
+    <string name="ussd_preference_body">Bloquer les codes USSD</string>
+    <string name="ussd_preference_change_information_body">Vous devez conférer davantage de droits à IKARUS mobile.security. Définissez IKARUS par défaut dans la boîte de dialogue suivante.</string>
+    <string name="ussd_preference_change_other_app">"Application par défaut erronée : \"%1$s\".
+
+Pour réinitialiser : OK -> \"Tous\" -> \"%2$s\" -> \"Effacer les valeurs par défaut\"."</string>
+    <string name="ussd_preference_change_yes_no">"IKARUS n'a pas été sélectionné par défaut. Est-ce que vous souhaitez réessayer ?"</string>
+    <string name="ussd_title">Protection USSD</string>
+    <string name="vendor_address">"Blechturmgasse 11
+1050 Vienna
+Austria
+
+support@ikarus.at
+
+http://www.ikarus.at
+
+
+☎ Sales: +43 1 58995 - 0
+
+☎ Support: +43 1 58995 - 400"</string>
+    <string name="vendor_name">IKARUS Security Software GmbH</string>
+    <string name="where_activation_codes">"Vous pouvez acheter des codes d'activation sur le site web d'IKARUS."</string>
+    <string name="where_activation_codes_browse">www.IKARUS.at</string>
+    <string name="where_activation_codes_title">"Où trouver des codes d'activation ?"</string>
+    <string name="why_activation_codes">Faites votre choix parmi différents modèles de licence flexibles.</string>
+    <string name="why_activation_codes_title">"Pourquoi des codes d'activation ?"</string>
+</resources>

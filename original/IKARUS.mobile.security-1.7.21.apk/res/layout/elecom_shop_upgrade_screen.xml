@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/IkarusRootLayoutMobile">
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutMain" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:layout_width="fill_parent" android:layout_height="wrap_content" ikarus:help_text="@string/information_upgradecode_body" ikarus:help_title="@string/information_upgradecode_header" ikarus:title_text="@string/upgradecode_title" />
+            <Button android:id="@id/useIkarusStore" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/upgradecode_button" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upgradecode_hint" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

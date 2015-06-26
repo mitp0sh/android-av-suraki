@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:baselineAligned="false" style="@style/IkarusRootLayoutInstall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="5.0">
+        <LinearLayout android:gravity="center" android:id="@id/imageView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/logo" android:scaleType="fitStart" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/acceptButtonContainer" android:paddingTop="20.0dip" android:paddingBottom="60.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/progressLayout">
+            <Button android:id="@id/acceptButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_accept_licence" />
+        </LinearLayout>
+        <ScrollView android:id="@id/scrollView1" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/acceptButtonContainer" android:layout_below="@id/imageView1" android:layout_alignParentLeft="true">
+            <TextView android:id="@id/textViewLicense" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@id/progressLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:measureWithLargestChild="true">
+            <ImageView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

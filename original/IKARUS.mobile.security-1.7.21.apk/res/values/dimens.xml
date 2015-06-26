@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_seperation">10.0dip</dimen>
+    <dimen name="box_side_margin">5.0dip</dimen>
+    <dimen name="separator_spacing">14.0dip</dimen>
+    <dimen name="separator_thickness">1.0dip</dimen>
+</resources>

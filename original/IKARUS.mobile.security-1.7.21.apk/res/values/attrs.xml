@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="help_text" format="string" />
+    <attr name="help_title" format="string" />
+    <attr name="title_text" format="string" />
+    <attr name="preference_protection" format="boolean" />
+    <attr name="preference_key" format="string" />
+    <attr name="preference_text" format="string" />
+    <attr name="preference_initialization" format="string" />
+    <attr name="preference_change_handling" format="string" />
+    <attr name="preference_small" format="boolean" />
+    <attr name="preference_label_enable" format="string" />
+    <attr name="preference_label_disable" format="string" />
+    <attr name="preference_label_next" format="string" />
+    <attr name="preference_label_previous" format="string" />
+    <attr name="caption" format="string" />
+    <attr name="description" format="string" />
+    <attr name="onClick" format="string" />
+    <attr name="html" format="string" />
+</resources>

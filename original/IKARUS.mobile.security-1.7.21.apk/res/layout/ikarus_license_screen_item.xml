@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/middleContainer" style="@style/MainMenuItemMiddleContainerNormal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/iconContainer" style="@style/MainMenuItemIconContainerNormal">
+        <ImageView android:id="@id/icon" android:src="@drawable/list_upgrade" style="@style/MainMenuItemIcon" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/innerContainer" style="@style/MainMenuItemInnerContainer">
+        <TextView android:id="@id/caption" style="@style/MainMenuItemLabel" />
+        <TextView android:id="@id/description" style="@style/MainMenuItemInfoLine" />
+    </LinearLayout>
+</LinearLayout>

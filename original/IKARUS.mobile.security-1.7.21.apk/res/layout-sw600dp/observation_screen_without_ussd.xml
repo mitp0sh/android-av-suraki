@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/IkarusRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ikarus="http://schemas.android.com/apk/res/com.ikarus.mobile.security">
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutMain" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_observation_apps_body" ikarus:help_title="@string/information_observation_apps_header" ikarus:title_text="@string/observate_apps_title" />
+        <com.ikarus.mobile.security.preference.frontend.IkarusCheckBoxPreference android:layout_width="fill_parent" android:layout_height="wrap_content" ikarus:preference_key="appProtectionActivated" ikarus:preference_text="@string/observate_apps_preference" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="@color/status_partly" android:id="@id/warningAppProtectionDisabled" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/observation_screen_warning" />
+        <com.ikarus.mobile.security.view.IkarusTitleWithHelp android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" ikarus:help_text="@string/information_observation_sdcard_body" ikarus:help_title="@string/information_observation_sdcard_header" ikarus:title_text="@string/observate_sdcard_title" />
+        <com.ikarus.mobile.security.preference.frontend.IkarusCheckBoxPreference android:layout_width="fill_parent" android:layout_height="wrap_content" ikarus:preference_key="sdCardProtectionActivated" ikarus:preference_text="@string/observate_sdcard_preference" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="@color/status_partly" android:id="@id/warningSdCardProtectionDisabled" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/observation_screen_warning" />
+    </LinearLayout>
+</ScrollView>

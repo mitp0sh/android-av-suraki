@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="remote_command_wipe">
+        <item>Sil</item>
+        <item>Cancella</item>
+        <item>Eliminar</item>
+        <item>擦除</item>
+        <item>Wipe</item>
+        <item>Effacer</item>
+        <item>Löschen</item>
+        <item>削除</item>
+    </string-array>
+    <string-array name="remote_command_alarm">
+        <item>Alarm</item>
+        <item>Allarme</item>
+        <item>Alarma</item>
+        <item>警报</item>
+        <item>Alarm</item>
+        <item>Alarme</item>
+        <item>Alarm</item>
+        <item>アラーム</item>
+    </string-array>
+    <string-array name="remote_command_lock">
+        <item>Kilitle</item>
+        <item>Blocca</item>
+        <item>Bloquear</item>
+        <item>锁定</item>
+        <item>Lock</item>
+        <item>Bloquer</item>
+        <item>Sperren</item>
+        <item>ブロック</item>
+    </string-array>
+    <string-array name="remote_command_locate">
+        <item>Konum</item>
+        <item>Localizza</item>
+        <item>Localización</item>
+        <item>定位</item>
+        <item>Locate</item>
+        <item>Localiser</item>
+        <item>Orten</item>
+        <item>探索</item>
+    </string-array>
+</resources>

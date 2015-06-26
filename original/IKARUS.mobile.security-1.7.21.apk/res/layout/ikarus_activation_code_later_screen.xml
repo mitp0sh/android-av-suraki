@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/IkarusRootLayoutMobile"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_marginTop="10.0dip" android:text="@string/license_choice_screen_lite_title" style="@style/MainMenuItemLabel" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/license_choice_screen_lite_description" />
+            <EditText android:id="@id/editTextActivationCode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/ikarus_activation_code_hint" android:ems="10" android:inputType="textCapCharacters">
+                <requestFocus />
+            </EditText>
+            <Button android:id="@id/buttonActivationOk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/ikarus_activation_code_send" />
+            <Button android:id="@id/scan_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/activation_qr_code_scan_button_text" android:drawableLeft="@android:drawable/ic_menu_camera" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/why_activation_codes_title" style="@style/MainMenuItemLabelSmaller" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/why_activation_codes" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/where_activation_codes_title" style="@style/MainMenuItemLabelSmaller" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/where_activation_codes" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:autoLink="email|web" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/where_activation_codes_browse" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

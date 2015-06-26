@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/background_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/separator_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.ikarus.mobile.security.view.StatusBar android:id="@id/statusBar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/mainMenuWrapper" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ikarus.mobile.security.mainscreen.MainScreenItem android:id="@id/mainMenuAntiVirus" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" icon="@drawable/list_av" label="@string/main_menu_anti_virus" />
+            <com.ikarus.mobile.security.mainscreen.MainScreenItem android:id="@id/mainMenuObservation" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" icon="@drawable/list_scan" label="@string/main_menu_observation" />
+            <com.ikarus.mobile.security.mainscreen.MainScreenItem android:id="@id/mainMenuWebFilter" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" icon="@drawable/list_webfilter" label="@string/main_menu_web_filter" />
+            <com.ikarus.mobile.security.mainscreen.MainScreenItem android:id="@id/mainMenuTheftProtection" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" icon="@drawable/list_diebstahlschutz" label="@string/main_menu_theft_protection" />
+            <com.ikarus.mobile.security.mainscreen.MainScreenItem android:id="@id/mainMenuSmsFilter" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" icon="@drawable/list_blacklist" label="@string/main_menu_sms_filter" />
+            <com.ikarus.mobile.security.mainscreen.MainScreenItem android:id="@id/mainMenuInfo" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" icon="@drawable/list_info" label="@string/main_menu_info" />
+            <com.ikarus.mobile.security.mainscreen.MainScreenItem android:id="@id/mainMenuWizard" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" icon="@drawable/list_wizard" label="@string/main_menu_wizard" />
+            <com.ikarus.mobile.security.mainscreen.MainScreenItem android:id="@id/mainMenuUninstall" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" icon="@drawable/list_uninstall" label="@string/main_menu_uninstall" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

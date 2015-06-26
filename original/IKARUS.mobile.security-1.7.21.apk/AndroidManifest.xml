@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.ikarus.mobile.security">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REMOVED"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <application android:icon="@drawable/launcher" android:label="@string/app_name" android:name="com.ikarus.mobile.security.IkarusApplication" android:theme="@style/Ikarus.Theme">
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name_launcher" android:launchMode="singleTop" android:name="com.ikarus.mobile.security.mainscreen.MainScreen" android:windowSoftInputMode="stateHidden">
+            <intent-filter android:label="@string/app_name_launcher">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteLicenseScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteActivationCodeSetupScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteInitialUpdateScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteGoogleInAppSetupScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteWizardBlacklistAddEntriesScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:hardwareAccelerated="false" android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteWizardInstructionScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteWizardPasswordScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:hardwareAccelerated="false" android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteWizardRemoteControlScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:hardwareAccelerated="false" android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteWizardRemoteControlSummaryScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:hardwareAccelerated="false" android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteWizardBlacklistScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:hardwareAccelerated="false" android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteWizardWebFilterScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:hardwareAccelerated="false" android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteWizardCompleteScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:hardwareAccelerated="false" android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.productspecific.lite.LiteWizardCompleteWithSettingsScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="standard" android:name="com.ikarus.mobile.security.productspecific.lite.LiteThanksForUpgradingSetupScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="standard" android:name="com.ikarus.mobile.security.productspecific.lite.LiteTrialSetupScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="standard" android:name="com.ikarus.mobile.security.productspecific.lite.LiteEulaScreen"/>
+        <activity android:enabled="false" android:exported="true" android:icon="@drawable/launcher" android:label="@string/app_name" android:name="com.ikarus.mobile.security.UssdBlock" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.service.InfectionFoundScreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="standard" android:name="com.ikarus.mobile.security.webfiltering.UrlWarningScreen" android:noHistory="true"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.ikarus.mobile.security.qrcode.CaptureActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="standard" android:name="com.ikarus.mobile.security.access.ikarusbilling.gui.IkarusActivationCodeQrCodeScanner$Activity"/>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="standard" android:name="com.ikarus.mobile.security.fragments.buylater.IkarusActivationCodeCaptureForLater"/>
+        <activity android:icon="@drawable/launcher" android:label="@string/app_name" android:launchMode="standard" android:name="com.ikarus.mobile.security.access.ikarusbilling.ActivationCodeFromLinkActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="imsactivation.ikarus.at" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:launchMode="singleTask" android:name="com.ikarus.mobile.security.lockscreen.LockScreen" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:description="@string/ikarus_admin_description" android:label="@string/app_name" android:name="com.ikarus.mobile.security.admin.IkarusAdminReceiver" android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/ikarus_admin_policy"/>
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.ikarus.mobile.security.service.IkarusService" android:permission="android.permission.READ_PHONE_STATE">
+            <intent-filter>
+                <action android:name="com.ikarus.mobile.security.service.IkarusService.scanAlarmIntent"/>
+                <action android:name="com.ikarus.mobile.security.service.IkarusService.updateAlarmIntent"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.ikarus.mobile.security.access.googlebilling.framework.BillingService"/>
+        <receiver android:enabled="true" android:name="com.ikarus.mobile.security.service.IkarusBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.ConnectivityManager.CONNECTIVITY_ACTION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:name="com.ikarus.mobile.security.service.IkarusSMSReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.ikarus.mobile.security.provider" android:exported="true" android:name="com.ikarus.mobile.security.common.SendFileFromInternalStorageHelper"/>
+    </application>
+</manifest>
